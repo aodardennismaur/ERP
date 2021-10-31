@@ -1,0 +1,1395 @@
+2021-10-31 05:41:23,831 1944 INFO ? odoo: Odoo version 15.0-20211031 
+2021-10-31 05:41:23,831 1944 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 15.0.20211031\server\odoo.conf 
+2021-10-31 05:41:23,831 1944 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 15.0.20211031\\server\\odoo\\addons', 'c:\\users\\denni\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\program files\\odoo 15.0.20211031\\server\\odoo\\addons'] 
+2021-10-31 05:41:23,832 1944 INFO ? odoo: database: root@localhost:5432 
+2021-10-31 05:41:25,992 1944 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 15.0.20211031\thirdparty\wkhtmltopdf.exe 
+2021-10-31 05:41:28,123 1944 INFO ? odoo.service.server: Initiating shutdown 
+2021-10-31 05:41:28,124 1944 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2021-10-31 05:41:30,417 8524 INFO ? odoo: Odoo version 15.0-20211031 
+2021-10-31 05:41:30,418 8524 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 15.0.20211031\server\odoo.conf 
+2021-10-31 05:41:30,418 8524 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 15.0.20211031\\server\\odoo\\addons', 'c:\\users\\denni\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\program files\\odoo 15.0.20211031\\server\\odoo\\addons'] 
+2021-10-31 05:41:30,418 8524 INFO ? odoo: database: root@localhost:5432 
+2021-10-31 05:41:30,709 8524 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 15.0.20211031\thirdparty\wkhtmltopdf.exe 
+2021-10-31 05:41:31,931 8524 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-KBAH088:8069 
+2021-10-31 05:41:35,050 8524 INFO ? odoo.sql_db: Connection to the database failed 
+2021-10-31 05:41:39,132 8524 INFO ? odoo.sql_db: Connection to the database failed 
+2021-10-31 05:54:50,855 8524 INFO ? odoo.http: HTTP Configuring static files 
+2021-10-31 05:54:50,904 8524 INFO ? odoo.http: Generating nondb routing 
+2021-10-31 05:54:50,938 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:50] "GET / HTTP/1.1" 303 - 1 0.006 0.067
+2021-10-31 05:54:51,137 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web HTTP/1.1" 303 - 2 0.004 0.191
+2021-10-31 05:54:51,335 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web/database/selector HTTP/1.1" 200 - 2 0.005 0.188
+2021-10-31 05:54:51,683 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2021-10-31 05:54:51,688 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2021-10-31 05:54:51,744 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:51,945 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:51] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,014 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,025 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,077 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,284 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,340 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,357 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,400 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,623 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,666 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,681 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,726 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,963 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:52,997 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:52] "GET /web/static/img/logo2.png HTTP/1.1" 200 - - - -
+2021-10-31 05:54:53,004 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:53] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2021-10-31 05:54:53,287 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:53] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2021-10-31 05:54:53,432 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:54:53] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2021-10-31 05:57:26,501 8524 INFO None odoo.service.db: Create database `localhost`. 
+2021-10-31 05:57:28,657 8524 INFO localhost odoo.modules.loading: loading 1 modules... 
+2021-10-31 05:57:28,657 8524 INFO localhost odoo.modules.loading: Loading module base (1/1) 
+2021-10-31 05:57:28,686 8524 INFO localhost odoo.modules.registry: module base: creating or updating database tables 
+2021-10-31 05:57:30,275 8524 INFO localhost odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2021-10-31 05:57:30,275 8524 INFO localhost odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2021-10-31 05:57:30,275 8524 INFO localhost odoo.models: Storing computed values of ir.module.module.views_by_module 
+2021-10-31 05:57:30,277 8524 INFO localhost odoo.models: Storing computed values of res.partner.display_name 
+2021-10-31 05:57:30,278 8524 INFO localhost odoo.models: Storing computed values of res.partner.partner_share 
+2021-10-31 05:57:30,278 8524 INFO localhost odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2021-10-31 05:57:30,278 8524 INFO localhost odoo.models: Storing computed values of res.partner.commercial_company_name 
+2021-10-31 05:57:30,278 8524 INFO localhost odoo.models: Storing computed values of res.currency.decimal_places 
+2021-10-31 05:57:30,284 8524 INFO localhost odoo.models: Storing computed values of res.company.logo_web 
+2021-10-31 05:57:30,284 8524 INFO localhost odoo.models: Storing computed values of res.company.company_registry 
+2021-10-31 05:57:30,291 8524 INFO localhost odoo.models: Storing computed values of res.users.share 
+2021-10-31 05:57:32,581 8524 INFO localhost odoo.modules.loading: loading base/data/res_bank.xml 
+2021-10-31 05:57:32,604 8524 INFO localhost odoo.modules.loading: loading base/data/res.lang.csv 
+2021-10-31 05:57:32,679 8524 INFO localhost odoo.modules.loading: loading base/data/res_lang_data.xml 
+2021-10-31 05:57:32,720 8524 INFO localhost odoo.modules.loading: loading base/data/res_partner_data.xml 
+2021-10-31 05:57:32,826 8524 INFO localhost odoo.modules.loading: loading base/data/res_company_data.xml 
+2021-10-31 05:57:32,848 8524 INFO localhost odoo.modules.loading: loading base/data/res_users_data.xml 
+2021-10-31 05:57:32,965 8524 INFO localhost odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2021-10-31 05:57:32,981 8524 INFO localhost odoo.modules.loading: loading base/data/res_currency_data.xml 
+2021-10-31 05:57:33,657 8524 INFO localhost odoo.modules.loading: loading base/data/res_country_data.xml 
+2021-10-31 05:57:34,281 8524 INFO localhost odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2021-10-31 05:57:34,299 8524 INFO localhost odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2021-10-31 05:57:34,316 8524 INFO localhost odoo.modules.loading: loading base/security/base_groups.xml 
+2021-10-31 05:57:34,480 8524 INFO localhost odoo.modules.loading: loading base/security/base_security.xml 
+2021-10-31 05:57:34,774 8524 INFO localhost odoo.modules.loading: loading base/views/base_menus.xml 
+2021-10-31 05:57:34,936 8524 INFO localhost odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2021-10-31 05:57:34,981 8524 INFO localhost odoo.modules.loading: loading base/views/res_config_views.xml 
+2021-10-31 05:57:35,001 8524 INFO localhost odoo.modules.loading: loading base/data/res.country.state.csv 
+2021-10-31 05:57:36,179 8524 INFO localhost odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2021-10-31 05:57:36,335 8524 INFO localhost odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2021-10-31 05:57:36,366 8524 INFO localhost odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2021-10-31 05:57:36,396 8524 INFO localhost odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2021-10-31 05:57:36,448 8524 INFO localhost odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2021-10-31 05:57:36,477 8524 INFO localhost odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2021-10-31 05:57:36,509 8524 INFO localhost odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2021-10-31 05:57:36,541 8524 INFO localhost odoo.modules.loading: loading base/views/ir_model_views.xml 
+2021-10-31 05:57:36,738 8524 INFO localhost odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2021-10-31 05:57:36,774 8524 INFO localhost odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2021-10-31 05:57:36,812 8524 INFO localhost odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2021-10-31 05:57:36,848 8524 INFO localhost odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2021-10-31 05:57:36,902 8524 INFO localhost odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2021-10-31 05:57:36,938 8524 INFO localhost odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2021-10-31 05:57:37,004 8524 INFO localhost odoo.modules.loading: loading base/views/ir_default_views.xml 
+2021-10-31 05:57:37,036 8524 INFO localhost odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2021-10-31 05:57:37,051 8524 INFO localhost odoo.modules.loading: loading base/report/ir_model_report.xml 
+2021-10-31 05:57:37,068 8524 INFO localhost odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2021-10-31 05:57:37,081 8524 INFO localhost odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2021-10-31 05:57:37,111 8524 INFO localhost odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2021-10-31 05:57:37,128 8524 INFO localhost odoo.modules.loading: loading base/views/ir_module_views.xml 
+2021-10-31 05:57:37,225 8524 INFO localhost odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2021-10-31 05:57:37,332 8524 INFO localhost odoo.modules.loading: loading base/data/ir_module_module.xml 
+2021-10-31 05:57:37,427 8524 INFO localhost odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2021-10-31 05:57:37,440 8524 INFO localhost odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2021-10-31 05:57:37,460 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2021-10-31 05:57:37,484 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2021-10-31 05:57:37,503 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2021-10-31 05:57:37,525 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2021-10-31 05:57:37,557 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2021-10-31 05:57:37,571 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2021-10-31 05:57:37,592 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2021-10-31 05:57:37,616 8524 INFO localhost odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2021-10-31 05:57:37,638 8524 INFO localhost odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2021-10-31 05:57:37,649 8524 INFO localhost odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2021-10-31 05:57:37,671 8524 INFO localhost odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2021-10-31 05:57:37,707 8524 INFO localhost odoo.modules.loading: loading base/views/res_company_views.xml 
+2021-10-31 05:57:37,740 8524 INFO localhost odoo.modules.loading: loading base/views/res_lang_views.xml 
+2021-10-31 05:57:37,775 8524 INFO localhost odoo.modules.loading: loading base/views/res_partner_views.xml 
+2021-10-31 05:57:37,924 8524 INFO localhost odoo.modules.loading: loading base/views/res_bank_views.xml 
+2021-10-31 05:57:37,971 8524 INFO localhost odoo.modules.loading: loading base/views/res_country_views.xml 
+2021-10-31 05:57:38,024 8524 INFO localhost odoo.modules.loading: loading base/views/res_currency_views.xml 
+2021-10-31 05:57:38,078 8524 INFO localhost odoo.modules.loading: loading base/views/res_users_views.xml 
+2021-10-31 05:57:38,221 8524 INFO localhost odoo.modules.loading: loading base/views/ir_property_views.xml 
+2021-10-31 05:57:38,254 8524 INFO localhost odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2021-10-31 05:57:38,271 8524 INFO localhost odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2021-10-31 05:57:38,312 8524 INFO localhost odoo.modules.loading: loading base/views/onboarding_views.xml 
+2021-10-31 05:57:38,352 8524 INFO localhost odoo.modules.loading: loading base/security/ir.model.access.csv 
+2021-10-31 05:57:38,590 8524 INFO localhost odoo.modules.loading: Module base: loading demo 
+2021-10-31 05:57:38,591 8524 INFO localhost odoo.modules.loading: loading base/data/res_company_demo.xml 
+2021-10-31 05:57:38,614 8524 INFO localhost odoo.modules.loading: loading base/data/res_users_demo.xml 
+2021-10-31 05:57:38,811 8524 INFO localhost odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2021-10-31 05:57:38,824 8524 INFO localhost odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2021-10-31 05:57:39,334 8524 INFO localhost odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2021-10-31 05:57:39,346 8524 INFO localhost odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2021-10-31 05:57:39,700 8524 INFO localhost odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2021-10-31 05:57:40,032 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_PE 
+2021-10-31 05:57:40,039 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es.po 
+2021-10-31 05:57:41,197 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:41,203 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es_PE.po 
+2021-10-31 05:57:42,540 8524 INFO localhost odoo.modules.loading: Module base loaded in 13.88s, 10887 queries 
+2021-10-31 05:57:42,540 8524 INFO localhost odoo.modules.loading: 1 modules loaded in 13.88s, 10887 queries (+0 extra) 
+2021-10-31 05:57:42,613 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_PE 
+2021-10-31 05:57:42,614 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es.po 
+2021-10-31 05:57:43,682 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:43,682 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es_PE.po 
+2021-10-31 05:57:44,247 8524 INFO localhost odoo.modules.loading: updating modules list 
+2021-10-31 05:57:44,248 8524 INFO localhost odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2021-10-31 05:57:45,306 8524 INFO localhost odoo.modules.loading: loading 6 modules... 
+2021-10-31 05:57:45,306 8524 INFO localhost odoo.modules.loading: Loading module web (2/6) 
+2021-10-31 05:57:45,372 8524 INFO localhost odoo.modules.registry: module web: creating or updating database tables 
+2021-10-31 05:57:45,999 8524 INFO localhost odoo.modules.loading: loading web/security/ir.model.access.csv 
+2021-10-31 05:57:46,018 8524 INFO localhost odoo.modules.loading: loading web/views/webclient_templates.xml 
+2021-10-31 05:57:46,119 8524 INFO localhost odoo.modules.loading: loading web/views/report_templates.xml 
+2021-10-31 05:57:46,235 8524 INFO localhost odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2021-10-31 05:57:46,260 8524 INFO localhost odoo.modules.loading: loading web/views/speedscope_template.xml 
+2021-10-31 05:57:46,279 8524 INFO localhost odoo.modules.loading: loading web/views/lazy_assets.xml 
+2021-10-31 05:57:46,295 8524 INFO localhost odoo.modules.loading: loading web/data/report_layout.xml 
+2021-10-31 05:57:46,341 8524 INFO localhost odoo.modules.loading: Module web: loading demo 
+2021-10-31 05:57:46,345 8524 INFO localhost odoo.addons.base.models.ir_translation: module web: loading base translation file es for language es_PE 
+2021-10-31 05:57:46,351 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web\i18n\es.po 
+2021-10-31 05:57:46,556 8524 INFO localhost odoo.addons.base.models.ir_translation: module web: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:46,563 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web\i18n\es_PE.po 
+2021-10-31 05:57:46,641 8524 INFO localhost odoo.modules.loading: Module web loaded in 1.33s, 906 queries 
+2021-10-31 05:57:46,641 8524 INFO localhost odoo.modules.loading: Loading module auth_totp (3/6) 
+2021-10-31 05:57:46,957 8524 INFO localhost odoo.modules.registry: module auth_totp: creating or updating database tables 
+2021-10-31 05:57:47,054 8524 INFO localhost odoo.modules.loading: loading auth_totp/security/security.xml 
+2021-10-31 05:57:47,107 8524 INFO localhost odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2021-10-31 05:57:47,134 8524 INFO localhost odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2021-10-31 05:57:47,150 8524 INFO localhost odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2021-10-31 05:57:47,192 8524 INFO localhost odoo.modules.loading: loading auth_totp/views/templates.xml 
+2021-10-31 05:57:47,206 8524 INFO localhost odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2021-10-31 05:57:47,222 8524 INFO localhost odoo.modules.loading: Module auth_totp: loading demo 
+2021-10-31 05:57:47,228 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file es for language es_PE 
+2021-10-31 05:57:47,234 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_totp\i18n\es.po 
+2021-10-31 05:57:47,261 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp: no translation for language es_PE 
+2021-10-31 05:57:47,279 8524 INFO localhost odoo.modules.loading: Module auth_totp loaded in 0.64s, 202 queries 
+2021-10-31 05:57:47,279 8524 INFO localhost odoo.modules.loading: Loading module base_import (4/6) 
+2021-10-31 05:57:47,428 8524 INFO localhost odoo.modules.registry: module base_import: creating or updating database tables 
+2021-10-31 05:57:48,411 8524 INFO localhost odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2021-10-31 05:57:48,459 8524 INFO localhost odoo.modules.loading: Module base_import: loading demo 
+2021-10-31 05:57:48,464 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_import: loading base translation file es for language es_PE 
+2021-10-31 05:57:48,470 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_import\i18n\es.po 
+2021-10-31 05:57:48,512 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_import: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:48,518 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_import\i18n\es_PE.po 
+2021-10-31 05:57:48,564 8524 INFO localhost odoo.modules.loading: Module base_import loaded in 1.29s, 940 queries 
+2021-10-31 05:57:48,564 8524 INFO localhost odoo.modules.loading: Loading module web_kanban_gauge (5/6) 
+2021-10-31 05:57:48,641 8524 INFO localhost odoo.modules.loading: Module web_kanban_gauge: loading demo 
+2021-10-31 05:57:48,645 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file es for language es_PE 
+2021-10-31 05:57:48,650 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_kanban_gauge\i18n\es.po 
+2021-10-31 05:57:48,659 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:48,664 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_kanban_gauge\i18n\es_PE.po 
+2021-10-31 05:57:48,698 8524 INFO localhost odoo.modules.loading: Module web_kanban_gauge loaded in 0.13s, 38 queries 
+2021-10-31 05:57:48,699 8524 INFO localhost odoo.modules.loading: Loading module web_tour (6/6) 
+2021-10-31 05:57:48,805 8524 INFO localhost odoo.modules.registry: module web_tour: creating or updating database tables 
+2021-10-31 05:57:48,862 8524 INFO localhost odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2021-10-31 05:57:48,884 8524 INFO localhost odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2021-10-31 05:57:48,905 8524 INFO localhost odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2021-10-31 05:57:48,934 8524 INFO localhost odoo.modules.loading: Module web_tour: loading demo 
+2021-10-31 05:57:48,939 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_tour: loading base translation file es for language es_PE 
+2021-10-31 05:57:48,945 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_tour\i18n\es.po 
+2021-10-31 05:57:48,970 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_tour: no translation for language es_PE 
+2021-10-31 05:57:48,988 8524 INFO localhost odoo.modules.loading: Module web_tour loaded in 0.29s, 126 queries 
+2021-10-31 05:57:48,988 8524 INFO localhost odoo.modules.loading: 6 modules loaded in 3.68s, 2212 queries (+0 extra) 
+2021-10-31 05:57:49,231 8524 INFO localhost odoo.modules.loading: Modules loaded. 
+2021-10-31 05:57:49,233 8524 INFO localhost odoo.modules.registry: Registry loaded in 20.598s 
+2021-10-31 05:57:49,240 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_PE 
+2021-10-31 05:57:49,240 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es.po 
+2021-10-31 05:57:50,220 8524 INFO localhost odoo.addons.base.models.ir_translation: module base: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:50,221 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base\i18n\es_PE.po 
+2021-10-31 05:57:50,757 8524 INFO localhost odoo.addons.base.models.ir_translation: module web: loading base translation file es for language es_PE 
+2021-10-31 05:57:50,758 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web\i18n\es.po 
+2021-10-31 05:57:50,863 8524 INFO localhost odoo.addons.base.models.ir_translation: module web: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:50,864 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web\i18n\es_PE.po 
+2021-10-31 05:57:51,024 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file es for language es_PE 
+2021-10-31 05:57:51,024 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_totp\i18n\es.po 
+2021-10-31 05:57:51,044 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp: no translation for language es_PE 
+2021-10-31 05:57:51,044 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_import: loading base translation file es for language es_PE 
+2021-10-31 05:57:51,045 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_import\i18n\es.po 
+2021-10-31 05:57:51,090 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_import: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:51,090 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_import\i18n\es_PE.po 
+2021-10-31 05:57:51,122 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file es for language es_PE 
+2021-10-31 05:57:51,122 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_kanban_gauge\i18n\es.po 
+2021-10-31 05:57:51,133 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading translation file (es_PE) for language es_PE 
+2021-10-31 05:57:51,133 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_kanban_gauge\i18n\es_PE.po 
+2021-10-31 05:57:51,145 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_tour: loading base translation file es for language es_PE 
+2021-10-31 05:57:51,145 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_tour\i18n\es.po 
+2021-10-31 05:57:51,162 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_tour: no translation for language es_PE 
+2021-10-31 05:57:51,349 8524 INFO localhost odoo.addons.base.models.res_users: Login successful for db:localhost login:avilesodar@gmail.com from 127.0.0.1 
+2021-10-31 05:57:51,368 8524 INFO localhost odoo.modules.registry: Registry changed, signaling through the database 
+2021-10-31 05:57:51,399 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:57:51] "POST /web/database/create HTTP/1.1" 303 - 17508 12.624 12.425
+2021-10-31 05:57:51,414 8524 INFO localhost odoo.addons.base.models.ir_http: Generating routing map for key None 
+2021-10-31 05:58:09,908 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:09] "GET /web HTTP/1.1" 200 - 178 0.138 18.367
+2021-10-31 05:58:09,976 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:09] "GET /web/assets/188-3b47675/web.assets_common.min.css HTTP/1.1" 200 - 2 0.001 0.016
+2021-10-31 05:58:10,378 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/webclient/load_menus/a6bdee49fa02786b4265d69ba2f77c527e413897f2b9429e9ab702ba24b1fb8c HTTP/1.1" 200 - 1 0.000 0.108
+2021-10-31 05:58:10,408 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/assets/189-e09b51e/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.009 0.132
+2021-10-31 05:58:10,453 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/webclient/translations/eee38832e0163a86dd22f06276ca8bc312e36ba5?lang=es_PE HTTP/1.1" 200 - 6 0.052 0.126
+2021-10-31 05:58:10,525 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/webclient/qweb/43d166dd1060ce66ce8ec024a4e48bdc6cb148753e07a4fee14b3058cd3ad585?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.007 0.246
+2021-10-31 05:58:10,713 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/assets/190-3b47675/web.assets_common.min.js HTTP/1.1" 200 - 2 0.009 0.436
+2021-10-31 05:58:10,788 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/assets/191-e09b51e/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.002 0.503
+2021-10-31 05:58:10,788 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:10] "GET /web/assets/192-cb0fc85/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.008 0.057
+2021-10-31 05:58:11,519 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:58:11] "GET /web/webclient/locale/es_PE HTTP/1.1" 200 - 1 0.000 0.018
+2021-10-31 05:59:17,599 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:17] "POST /web/action/load HTTP/1.1" 200 - 28 0.051 0.024
+2021-10-31 05:59:17,603 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:17] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 18 0.042 0.021
+2021-10-31 05:59:17,960 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:17] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.115 0.056
+2021-10-31 05:59:18,023 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.029 0.014
+2021-10-31 05:59:18,357 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.011 0.005
+2021-10-31 05:59:18,614 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,757 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,758 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,760 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,763 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /hr/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,764 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:18,936 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:18] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,077 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,078 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,079 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,081 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,083 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,261 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,401 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,405 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,406 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,407 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,408 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,582 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,728 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /account/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,731 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,733 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,739 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,739 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /website/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:19,910 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:19] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,049 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,050 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,052 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,060 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /mail/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,061 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,232 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,378 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,379 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,381 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,382 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,384 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /website_blog/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,550 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,704 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /survey/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,706 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /board/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,706 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,707 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,709 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /repair/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:20,872 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:20] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,028 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,033 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,034 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /note/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,036 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /website_forum/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,036 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,196 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,354 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,355 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,357 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,358 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,359 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_adyen/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,520 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_alipay/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,678 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_authorize/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,679 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_buckaroo/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,681 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_mollie/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,683 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_ogone/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,684 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_paypal/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,841 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_payulatam/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,996 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_payumoney/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,998 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_sips/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 05:59:21,999 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 05:59:21] "GET /payment_stripe/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:02:16,383 8524 INFO localhost odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['sale_management'] to user avilesodar@gmail.com #2 via 127.0.0.1 
+2021-10-31 06:02:16,383 8524 INFO localhost odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2021-10-31 06:02:16,389 8524 INFO localhost odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['sale_management'] to user avilesodar@gmail.com #2 via 127.0.0.1 
+2021-10-31 06:02:16,673 8524 INFO localhost odoo.modules.loading: loading 1 modules... 
+2021-10-31 06:02:16,680 8524 INFO localhost odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2021-10-31 06:02:16,706 8524 INFO localhost odoo.modules.loading: updating modules list 
+2021-10-31 06:02:16,709 8524 INFO localhost odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2021-10-31 06:02:17,761 8524 INFO localhost odoo.modules.loading: loading 6 modules... 
+2021-10-31 06:02:17,767 8524 INFO localhost odoo.modules.loading: 6 modules loaded in 0.00s, 0 queries (+0 extra) 
+2021-10-31 06:02:17,787 8524 INFO localhost odoo.modules.loading: loading 40 modules... 
+2021-10-31 06:02:17,787 8524 INFO localhost odoo.modules.loading: Loading module uom (2/40) 
+2021-10-31 06:02:17,889 8524 INFO localhost odoo.modules.registry: module uom: creating or updating database tables 
+2021-10-31 06:02:18,046 8524 INFO localhost odoo.modules.loading: loading uom/data/uom_data.xml 
+2021-10-31 06:02:18,131 8524 INFO localhost odoo.modules.loading: loading uom/security/uom_security.xml 
+2021-10-31 06:02:18,186 8524 INFO localhost odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2021-10-31 06:02:18,216 8524 INFO localhost odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2021-10-31 06:02:18,271 8524 INFO localhost odoo.modules.loading: Module uom: loading demo 
+2021-10-31 06:02:18,278 8524 INFO localhost odoo.addons.base.models.ir_translation: module uom: loading base translation file es for language es_PE 
+2021-10-31 06:02:18,285 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\uom\i18n\es.po 
+2021-10-31 06:02:18,326 8524 INFO localhost odoo.addons.base.models.ir_translation: module uom: no translation for language es_PE 
+2021-10-31 06:02:18,347 8524 INFO localhost odoo.modules.loading: Module uom loaded in 0.56s, 290 queries 
+2021-10-31 06:02:18,348 8524 INFO localhost odoo.modules.loading: Loading module base_setup (6/40) 
+2021-10-31 06:02:18,461 8524 INFO localhost odoo.modules.registry: module base_setup: creating or updating database tables 
+2021-10-31 06:02:18,526 8524 INFO localhost odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2021-10-31 06:02:18,544 8524 INFO localhost odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2021-10-31 06:02:18,599 8524 INFO localhost odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2021-10-31 06:02:18,615 8524 INFO localhost odoo.modules.loading: Module base_setup: loading demo 
+2021-10-31 06:02:18,620 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_setup: loading base translation file es for language es_PE 
+2021-10-31 06:02:18,627 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_setup\i18n\es.po 
+2021-10-31 06:02:18,665 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_setup: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:18,674 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_setup\i18n\es_PE.po 
+2021-10-31 06:02:18,705 8524 INFO localhost odoo.modules.loading: Module base_setup loaded in 0.36s, 189 queries 
+2021-10-31 06:02:18,705 8524 INFO localhost odoo.modules.loading: Loading module bus (7/40) 
+2021-10-31 06:02:18,831 8524 INFO localhost odoo.modules.registry: module bus: creating or updating database tables 
+2021-10-31 06:02:18,971 8524 INFO localhost odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2021-10-31 06:02:18,994 8524 INFO localhost odoo.modules.loading: Module bus: loading demo 
+2021-10-31 06:02:19,000 8524 INFO localhost odoo.addons.base.models.ir_translation: module bus: loading base translation file es for language es_PE 
+2021-10-31 06:02:19,008 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\bus\i18n\es.po 
+2021-10-31 06:02:19,028 8524 INFO localhost odoo.addons.base.models.ir_translation: module bus: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:19,034 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\bus\i18n\es_PE.po 
+2021-10-31 06:02:19,060 8524 INFO localhost odoo.modules.loading: Module bus loaded in 0.36s, 123 queries 
+2021-10-31 06:02:19,060 8524 INFO localhost odoo.modules.loading: Loading module http_routing (8/40) 
+2021-10-31 06:02:19,099 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:02:19] "GET /web/static/img/spin.png HTTP/1.1" 200 - - - -
+2021-10-31 06:02:19,229 8524 INFO localhost odoo.modules.registry: module http_routing: creating or updating database tables 
+2021-10-31 06:02:19,260 8524 INFO localhost odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2021-10-31 06:02:19,328 8524 INFO localhost odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2021-10-31 06:02:19,356 8524 INFO localhost odoo.modules.loading: Module http_routing: loading demo 
+2021-10-31 06:02:19,360 8524 INFO localhost odoo.addons.base.models.ir_translation: module http_routing: loading base translation file es for language es_PE 
+2021-10-31 06:02:19,369 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\http_routing\i18n\es.po 
+2021-10-31 06:02:19,393 8524 INFO localhost odoo.addons.base.models.ir_translation: module http_routing: no translation for language es_PE 
+2021-10-31 06:02:19,408 8524 INFO localhost odoo.modules.loading: Module http_routing loaded in 0.35s, 114 queries 
+2021-10-31 06:02:19,408 8524 INFO localhost odoo.modules.loading: Loading module resource (9/40) 
+2021-10-31 06:02:19,626 8524 INFO localhost odoo.modules.registry: module resource: creating or updating database tables 
+2021-10-31 06:02:19,970 8524 INFO localhost odoo.modules.loading: loading resource/data/resource_data.xml 
+2021-10-31 06:02:20,040 8524 INFO localhost odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2021-10-31 06:02:20,067 8524 INFO localhost odoo.modules.loading: loading resource/security/resource_security.xml 
+2021-10-31 06:02:20,101 8524 INFO localhost odoo.modules.loading: loading resource/views/resource_views.xml 
+2021-10-31 06:02:20,236 8524 INFO localhost odoo.modules.loading: Module resource: loading demo 
+2021-10-31 06:02:20,244 8524 INFO localhost odoo.addons.base.models.ir_translation: module resource: loading base translation file es for language es_PE 
+2021-10-31 06:02:20,251 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\resource\i18n\es.po 
+2021-10-31 06:02:20,291 8524 INFO localhost odoo.addons.base.models.ir_translation: module resource: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:20,298 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\resource\i18n\es_PE.po 
+2021-10-31 06:02:20,351 8524 INFO localhost odoo.modules.loading: Module resource loaded in 0.94s, 535 queries 
+2021-10-31 06:02:20,351 8524 INFO localhost odoo.modules.loading: Loading module utm (10/40) 
+2021-10-31 06:02:20,455 8524 INFO localhost odoo.modules.registry: module utm: creating or updating database tables 
+2021-10-31 06:02:20,647 8524 INFO localhost odoo.modules.loading: loading utm/data/utm_data.xml 
+2021-10-31 06:02:20,707 8524 INFO localhost odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2021-10-31 06:02:20,768 8524 INFO localhost odoo.modules.loading: loading utm/views/utm_views.xml 
+2021-10-31 06:02:20,877 8524 INFO localhost odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2021-10-31 06:02:20,916 8524 INFO localhost odoo.modules.loading: Module utm: loading demo 
+2021-10-31 06:02:20,917 8524 INFO localhost odoo.modules.loading: loading utm/data/utm_demo.xml 
+2021-10-31 06:02:20,958 8524 INFO localhost odoo.addons.base.models.ir_translation: module utm: loading base translation file es for language es_PE 
+2021-10-31 06:02:20,967 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\utm\i18n\es.po 
+2021-10-31 06:02:21,001 8524 INFO localhost odoo.addons.base.models.ir_translation: module utm: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:21,007 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\utm\i18n\es_PE.po 
+2021-10-31 06:02:21,053 8524 INFO localhost odoo.modules.loading: Module utm loaded in 0.70s, 429 queries 
+2021-10-31 06:02:21,053 8524 INFO localhost odoo.modules.loading: Loading module iap (13/40) 
+2021-10-31 06:02:21,184 8524 INFO localhost odoo.modules.registry: module iap: creating or updating database tables 
+2021-10-31 06:02:21,279 8524 INFO localhost odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2021-10-31 06:02:21,298 8524 INFO localhost odoo.modules.loading: loading iap/security/ir_rule.xml 
+2021-10-31 06:02:21,316 8524 INFO localhost odoo.modules.loading: loading iap/views/iap_views.xml 
+2021-10-31 06:02:21,353 8524 INFO localhost odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2021-10-31 06:02:21,380 8524 INFO localhost odoo.modules.loading: Module iap: loading demo 
+2021-10-31 06:02:21,388 8524 INFO localhost odoo.addons.base.models.ir_translation: module iap: loading base translation file es for language es_PE 
+2021-10-31 06:02:21,398 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\iap\i18n\es.po 
+2021-10-31 06:02:21,424 8524 INFO localhost odoo.addons.base.models.ir_translation: module iap: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:21,431 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\iap\i18n\es_PE.po 
+2021-10-31 06:02:21,457 8524 INFO localhost odoo.modules.loading: Module iap loaded in 0.40s, 176 queries 
+2021-10-31 06:02:21,457 8524 INFO localhost odoo.modules.loading: Loading module mail (14/40) 
+2021-10-31 06:02:22,359 8524 INFO localhost odoo.modules.registry: module mail: creating or updating database tables 
+2021-10-31 06:02:23,558 8524 INFO localhost odoo.models: Storing computed values of res.partner.email_normalized 
+2021-10-31 06:02:24,546 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_groups.xml 
+2021-10-31 06:02:24,596 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2021-10-31 06:02:24,608 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2021-10-31 06:02:24,633 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2021-10-31 06:02:24,655 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2021-10-31 06:02:24,673 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2021-10-31 06:02:24,693 8524 INFO localhost odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2021-10-31 06:02:24,706 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2021-10-31 06:02:24,731 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2021-10-31 06:02:24,755 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2021-10-31 06:02:24,777 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2021-10-31 06:02:24,819 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2021-10-31 06:02:24,859 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2021-10-31 06:02:24,886 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2021-10-31 06:02:24,913 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2021-10-31 06:02:24,938 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2021-10-31 06:02:24,967 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2021-10-31 06:02:25,008 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2021-10-31 06:02:25,033 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2021-10-31 06:02:25,125 8524 INFO localhost odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2021-10-31 06:02:25,167 8524 INFO localhost odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2021-10-31 06:02:25,211 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2021-10-31 06:02:25,232 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_templates.xml 
+2021-10-31 06:02:25,301 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2021-10-31 06:02:25,348 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2021-10-31 06:02:25,379 8524 INFO localhost odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2021-10-31 06:02:25,421 8524 INFO localhost odoo.modules.loading: loading mail/security/mail_security.xml 
+2021-10-31 06:02:25,546 8524 INFO localhost odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2021-10-31 06:02:25,633 8524 INFO localhost odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2021-10-31 06:02:25,661 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2021-10-31 06:02:25,696 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2021-10-31 06:02:25,715 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2021-10-31 06:02:25,732 8524 INFO localhost odoo.modules.loading: loading mail/views/res_users_views.xml 
+2021-10-31 06:02:25,762 8524 INFO localhost odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2021-10-31 06:02:25,786 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2021-10-31 06:02:25,819 8524 INFO localhost odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2021-10-31 06:02:25,840 8524 INFO localhost odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2021-10-31 06:02:25,885 8524 INFO localhost odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2021-10-31 06:02:25,985 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2021-10-31 06:02:26,017 8524 INFO localhost odoo.modules.loading: loading mail/views/mail_menus.xml 
+2021-10-31 06:02:26,142 8524 INFO localhost odoo.modules.loading: Module mail: loading demo 
+2021-10-31 06:02:26,143 8524 INFO localhost odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
+2021-10-31 06:02:26,235 8524 INFO localhost odoo.addons.base.models.ir_translation: module mail: loading base translation file es for language es_PE 
+2021-10-31 06:02:26,243 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\mail\i18n\es.po 
+2021-10-31 06:02:26,564 8524 INFO localhost odoo.addons.base.models.ir_translation: module mail: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:26,574 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\mail\i18n\es_PE.po 
+2021-10-31 06:02:26,755 8524 INFO localhost odoo.modules.loading: Module mail loaded in 5.30s, 3398 queries 
+2021-10-31 06:02:26,755 8524 INFO localhost odoo.modules.loading: Loading module analytic (15/40) 
+2021-10-31 06:02:26,894 8524 INFO localhost odoo.modules.registry: module analytic: creating or updating database tables 
+2021-10-31 06:02:27,266 8524 INFO localhost odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2021-10-31 06:02:27,329 8524 INFO localhost odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2021-10-31 06:02:27,399 8524 INFO localhost odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2021-10-31 06:02:27,600 8524 INFO localhost odoo.modules.loading: Module analytic: loading demo 
+2021-10-31 06:02:27,600 8524 INFO localhost odoo.modules.loading: loading analytic/data/analytic_demo.xml 
+2021-10-31 06:02:27,611 8524 INFO localhost odoo.modules.loading: loading analytic/data/analytic_account_demo.xml 
+2021-10-31 06:02:27,813 8524 INFO localhost odoo.addons.base.models.ir_translation: module analytic: loading base translation file es for language es_PE 
+2021-10-31 06:02:27,819 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\analytic\i18n\es.po 
+2021-10-31 06:02:27,866 8524 INFO localhost odoo.addons.base.models.ir_translation: module analytic: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:27,874 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\analytic\i18n\es_PE.po 
+2021-10-31 06:02:27,931 8524 INFO localhost odoo.modules.loading: Module analytic loaded in 1.18s, 585 queries 
+2021-10-31 06:02:27,931 8524 INFO localhost odoo.modules.loading: Loading module auth_signup (16/40) 
+2021-10-31 06:02:28,165 8524 INFO localhost odoo.modules.registry: module auth_signup: creating or updating database tables 
+2021-10-31 06:02:28,269 8524 INFO localhost odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2021-10-31 06:02:28,287 8524 INFO localhost odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2021-10-31 06:02:28,306 8524 INFO localhost odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2021-10-31 06:02:28,336 8524 INFO localhost odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2021-10-31 06:02:28,361 8524 INFO localhost odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2021-10-31 06:02:28,395 8524 INFO localhost odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2021-10-31 06:02:28,429 8524 INFO localhost odoo.modules.loading: Module auth_signup: loading demo 
+2021-10-31 06:02:28,433 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_signup: loading base translation file es for language es_PE 
+2021-10-31 06:02:28,441 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_signup\i18n\es.po 
+2021-10-31 06:02:28,472 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_signup: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:28,479 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_signup\i18n\es_PE.po 
+2021-10-31 06:02:28,545 8524 INFO localhost odoo.modules.loading: Module auth_signup loaded in 0.61s, 211 queries 
+2021-10-31 06:02:28,546 8524 INFO localhost odoo.modules.loading: Loading module auth_totp_mail (17/40) 
+2021-10-31 06:02:28,776 8524 INFO localhost odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2021-10-31 06:02:28,812 8524 INFO localhost odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2021-10-31 06:02:28,877 8524 INFO localhost odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2021-10-31 06:02:28,892 8524 INFO localhost odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2021-10-31 06:02:28,931 8524 INFO localhost odoo.modules.loading: Module auth_totp_mail: loading demo 
+2021-10-31 06:02:28,937 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp_mail: loading base translation file es for language es_PE 
+2021-10-31 06:02:28,947 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_totp_mail\i18n\es.po 
+2021-10-31 06:02:28,966 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp_mail: no translation for language es_PE 
+2021-10-31 06:02:28,981 8524 INFO localhost odoo.modules.loading: Module auth_totp_mail loaded in 0.44s, 102 queries 
+2021-10-31 06:02:28,981 8524 INFO localhost odoo.modules.loading: Loading module fetchmail (18/40) 
+2021-10-31 06:02:29,209 8524 INFO localhost odoo.modules.registry: module fetchmail: creating or updating database tables 
+2021-10-31 06:02:29,319 8524 INFO localhost odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2021-10-31 06:02:29,336 8524 INFO localhost odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2021-10-31 06:02:29,358 8524 INFO localhost odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2021-10-31 06:02:29,399 8524 INFO localhost odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2021-10-31 06:02:29,420 8524 INFO localhost odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2021-10-31 06:02:29,450 8524 INFO localhost odoo.modules.loading: Module fetchmail: loading demo 
+2021-10-31 06:02:29,458 8524 INFO localhost odoo.addons.base.models.ir_translation: module fetchmail: loading base translation file es for language es_PE 
+2021-10-31 06:02:29,465 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\fetchmail\i18n\es.po 
+2021-10-31 06:02:29,554 8524 INFO localhost odoo.addons.base.models.ir_translation: module fetchmail: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:29,568 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\fetchmail\i18n\es_PE.po 
+2021-10-31 06:02:29,600 8524 INFO localhost odoo.modules.loading: Module fetchmail loaded in 0.62s, 210 queries 
+2021-10-31 06:02:29,600 8524 INFO localhost odoo.modules.loading: Loading module iap_mail (19/40) 
+2021-10-31 06:02:29,769 8524 INFO localhost odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2021-10-31 06:02:29,842 8524 INFO localhost odoo.modules.loading: Module iap_mail: loading demo 
+2021-10-31 06:02:29,846 8524 INFO localhost odoo.addons.base.models.ir_translation: module iap_mail: loading base translation file es for language es_PE 
+2021-10-31 06:02:29,858 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\iap_mail\i18n\es.po 
+2021-10-31 06:02:29,881 8524 INFO localhost odoo.addons.base.models.ir_translation: module iap_mail: no translation for language es_PE 
+2021-10-31 06:02:29,895 8524 INFO localhost odoo.modules.loading: Module iap_mail loaded in 0.29s, 38 queries 
+2021-10-31 06:02:29,895 8524 INFO localhost odoo.modules.loading: Loading module mail_bot (20/40) 
+2021-10-31 06:02:30,153 8524 INFO localhost odoo.modules.registry: module mail_bot: creating or updating database tables 
+2021-10-31 06:02:30,281 8524 INFO localhost odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2021-10-31 06:02:30,320 8524 INFO localhost odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2021-10-31 06:02:30,335 8524 INFO localhost odoo.modules.loading: Module mail_bot: loading demo 
+2021-10-31 06:02:30,336 8524 INFO localhost odoo.modules.loading: loading mail_bot/data/mailbot_demo.xml 
+2021-10-31 06:02:30,353 8524 INFO localhost odoo.addons.base.models.ir_translation: module mail_bot: loading base translation file es for language es_PE 
+2021-10-31 06:02:30,361 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\mail_bot\i18n\es.po 
+2021-10-31 06:02:30,385 8524 INFO localhost odoo.addons.base.models.ir_translation: module mail_bot: no translation for language es_PE 
+2021-10-31 06:02:30,400 8524 INFO localhost odoo.modules.loading: Module mail_bot loaded in 0.51s, 156 queries 
+2021-10-31 06:02:30,400 8524 INFO localhost odoo.modules.loading: Loading module phone_validation (21/40) 
+2021-10-31 06:02:30,708 8524 INFO localhost odoo.modules.registry: module phone_validation: creating or updating database tables 
+2021-10-31 06:02:30,950 8524 INFO localhost odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2021-10-31 06:02:30,997 8524 INFO localhost odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2021-10-31 06:02:31,046 8524 INFO localhost odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2021-10-31 06:02:31,061 8524 INFO localhost odoo.modules.loading: Module phone_validation: loading demo 
+2021-10-31 06:02:31,066 8524 INFO localhost odoo.addons.base.models.ir_translation: module phone_validation: loading base translation file es for language es_PE 
+2021-10-31 06:02:31,074 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\phone_validation\i18n\es.po 
+2021-10-31 06:02:31,117 8524 INFO localhost odoo.addons.base.models.ir_translation: module phone_validation: no translation for language es_PE 
+2021-10-31 06:02:31,145 8524 INFO localhost odoo.modules.loading: Module phone_validation loaded in 0.74s, 190 queries 
+2021-10-31 06:02:31,145 8524 INFO localhost odoo.modules.loading: Loading module product (22/40) 
+2021-10-31 06:02:32,906 8524 INFO localhost odoo.modules.registry: module product: creating or updating database tables 
+2021-10-31 06:02:34,028 8524 INFO localhost odoo.modules.loading: loading product/data/product_data.xml 
+2021-10-31 06:02:34,081 8524 INFO localhost odoo.modules.loading: loading product/security/product_security.xml 
+2021-10-31 06:02:34,156 8524 INFO localhost odoo.modules.loading: loading product/security/ir.model.access.csv 
+2021-10-31 06:02:34,208 8524 INFO localhost odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2021-10-31 06:02:34,223 8524 INFO localhost odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2021-10-31 06:02:34,265 8524 INFO localhost odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2021-10-31 06:02:34,323 8524 INFO localhost odoo.modules.loading: loading product/views/product_views.xml 
+2021-10-31 06:02:34,541 8524 INFO localhost odoo.modules.loading: loading product/views/product_template_views.xml 
+2021-10-31 06:02:34,610 8524 INFO localhost odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2021-10-31 06:02:34,707 8524 INFO localhost odoo.modules.loading: loading product/views/res_partner_views.xml 
+2021-10-31 06:02:34,734 8524 INFO localhost odoo.modules.loading: loading product/report/product_reports.xml 
+2021-10-31 06:02:34,774 8524 INFO localhost odoo.modules.loading: loading product/report/product_product_templates.xml 
+2021-10-31 06:02:34,817 8524 INFO localhost odoo.modules.loading: loading product/report/product_template_templates.xml 
+2021-10-31 06:02:34,840 8524 INFO localhost odoo.modules.loading: loading product/report/product_packaging.xml 
+2021-10-31 06:02:34,857 8524 INFO localhost odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2021-10-31 06:02:34,879 8524 INFO localhost odoo.modules.loading: Module product: loading demo 
+2021-10-31 06:02:34,879 8524 INFO localhost odoo.modules.loading: loading product/data/product_demo.xml 
+2021-10-31 06:02:35,656 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.message records with IDs: [46] 
+2021-10-31 06:02:35,674 8524 INFO localhost odoo.models.unlink: User #1 deleted ir.property records with IDs: [9] 
+2021-10-31 06:02:35,677 8524 INFO localhost odoo.models.unlink: User #1 deleted product.product records with IDs: [9] 
+2021-10-31 06:02:35,688 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.followers records with IDs: [36] 
+2021-10-31 06:02:35,796 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.message records with IDs: [48, 47] 
+2021-10-31 06:02:35,814 8524 INFO localhost odoo.models.unlink: User #1 deleted product.product records with IDs: [11, 10] 
+2021-10-31 06:02:35,822 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.followers records with IDs: [37, 38] 
+2021-10-31 06:02:36,913 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.message records with IDs: [66] 
+2021-10-31 06:02:36,937 8524 INFO localhost odoo.models.unlink: User #1 deleted ir.property records with IDs: [20] 
+2021-10-31 06:02:36,941 8524 INFO localhost odoo.models.unlink: User #1 deleted product.product records with IDs: [22] 
+2021-10-31 06:02:36,947 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.followers records with IDs: [56] 
+2021-10-31 06:02:37,604 8524 INFO localhost odoo.addons.base.models.ir_translation: module product: loading base translation file es for language es_PE 
+2021-10-31 06:02:37,610 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\product\i18n\es.po 
+2021-10-31 06:02:37,776 8524 INFO localhost odoo.addons.base.models.ir_translation: module product: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:37,784 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\product\i18n\es_PE.po 
+2021-10-31 06:02:38,389 8524 INFO localhost odoo.modules.loading: Module product loaded in 7.24s, 3401 queries 
+2021-10-31 06:02:38,389 8524 INFO localhost odoo.modules.loading: Loading module sales_team (23/40) 
+2021-10-31 06:02:38,652 8524 INFO localhost odoo.modules.registry: module sales_team: creating or updating database tables 
+2021-10-31 06:02:38,744 8524 INFO localhost odoo.models: Storing computed values of res.users.sale_team_id 
+2021-10-31 06:02:38,908 8524 INFO localhost odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2021-10-31 06:02:39,026 8524 INFO localhost odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2021-10-31 06:02:39,061 8524 INFO localhost odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2021-10-31 06:02:39,136 8524 INFO localhost odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2021-10-31 06:02:39,165 8524 INFO localhost odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2021-10-31 06:02:39,216 8524 INFO localhost odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2021-10-31 06:02:39,272 8524 INFO localhost odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2021-10-31 06:02:39,283 8524 INFO localhost odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2021-10-31 06:02:39,301 8524 INFO localhost odoo.modules.loading: Module sales_team: loading demo 
+2021-10-31 06:02:39,302 8524 INFO localhost odoo.modules.loading: loading sales_team/data/crm_team_demo.xml 
+2021-10-31 06:02:39,367 8524 INFO localhost odoo.modules.loading: loading sales_team/data/crm_tag_demo.xml 
+2021-10-31 06:02:39,397 8524 INFO localhost odoo.addons.base.models.ir_translation: module sales_team: loading base translation file es for language es_PE 
+2021-10-31 06:02:39,403 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sales_team\i18n\es.po 
+2021-10-31 06:02:39,440 8524 INFO localhost odoo.addons.base.models.ir_translation: module sales_team: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:39,446 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sales_team\i18n\es_PE.po 
+2021-10-31 06:02:39,496 8524 INFO localhost odoo.modules.loading: Module sales_team loaded in 1.11s, 648 queries 
+2021-10-31 06:02:39,496 8524 INFO localhost odoo.modules.loading: Loading module web_editor (24/40) 
+2021-10-31 06:02:39,908 8524 INFO localhost odoo.modules.registry: module web_editor: creating or updating database tables 
+2021-10-31 06:02:40,078 8524 INFO localhost odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2021-10-31 06:02:40,094 8524 INFO localhost odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2021-10-31 06:02:40,106 8524 INFO localhost odoo.modules.loading: loading web_editor/views/editor.xml 
+2021-10-31 06:02:40,145 8524 INFO localhost odoo.modules.loading: loading web_editor/views/snippets.xml 
+2021-10-31 06:02:40,188 8524 INFO localhost odoo.modules.loading: Module web_editor: loading demo 
+2021-10-31 06:02:40,194 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_editor: loading base translation file es for language es_PE 
+2021-10-31 06:02:40,200 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_editor\i18n\es.po 
+2021-10-31 06:02:40,260 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_editor: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:40,267 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_editor\i18n\es_PE.po 
+2021-10-31 06:02:40,316 8524 INFO localhost odoo.modules.loading: Module web_editor loaded in 0.82s, 262 queries 
+2021-10-31 06:02:40,316 8524 INFO localhost odoo.modules.loading: Loading module partner_autocomplete (25/40) 
+2021-10-31 06:02:40,558 8524 INFO localhost odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2021-10-31 06:02:40,751 8524 INFO localhost odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2021-10-31 06:02:40,771 8524 INFO localhost odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2021-10-31 06:02:40,799 8524 INFO localhost odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2021-10-31 06:02:40,816 8524 INFO localhost odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2021-10-31 06:02:40,837 8524 INFO localhost odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2021-10-31 06:02:40,858 8524 INFO localhost odoo.modules.loading: Module partner_autocomplete: loading demo 
+2021-10-31 06:02:40,865 8524 INFO localhost odoo.addons.base.models.ir_translation: module partner_autocomplete: loading base translation file es for language es_PE 
+2021-10-31 06:02:40,874 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\partner_autocomplete\i18n\es.po 
+2021-10-31 06:02:40,898 8524 INFO localhost odoo.addons.base.models.ir_translation: module partner_autocomplete: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:40,906 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\partner_autocomplete\i18n\es_PE.po 
+2021-10-31 06:02:40,940 8524 INFO localhost odoo.modules.loading: Module partner_autocomplete loaded in 0.62s, 207 queries 
+2021-10-31 06:02:40,940 8524 INFO localhost odoo.modules.loading: Loading module portal (26/40) 
+2021-10-31 06:02:41,300 8524 INFO localhost odoo.modules.registry: module portal: creating or updating database tables 
+2021-10-31 06:02:41,610 8524 INFO localhost odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2021-10-31 06:02:41,631 8524 INFO localhost odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2021-10-31 06:02:41,643 8524 INFO localhost odoo.modules.loading: loading portal/data/mail_templates.xml 
+2021-10-31 06:02:41,658 8524 INFO localhost odoo.modules.loading: loading portal/views/portal_templates.xml 
+2021-10-31 06:02:41,795 8524 INFO localhost odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2021-10-31 06:02:41,815 8524 INFO localhost odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2021-10-31 06:02:41,837 8524 INFO localhost odoo.modules.loading: Module portal: loading demo 
+2021-10-31 06:02:41,845 8524 INFO localhost odoo.addons.base.models.ir_translation: module portal: loading base translation file es for language es_PE 
+2021-10-31 06:02:41,851 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\portal\i18n\es.po 
+2021-10-31 06:02:41,922 8524 INFO localhost odoo.addons.base.models.ir_translation: module portal: no translation for language es_PE 
+2021-10-31 06:02:41,954 8524 INFO localhost odoo.modules.loading: Module portal loaded in 1.01s, 447 queries 
+2021-10-31 06:02:41,954 8524 INFO localhost odoo.modules.loading: Loading module sms (27/40) 
+2021-10-31 06:02:42,366 8524 INFO localhost odoo.modules.registry: module sms: creating or updating database tables 
+2021-10-31 06:02:42,627 8524 INFO localhost odoo.models: Storing computed values of res.partner.phone_sanitized 
+2021-10-31 06:02:42,821 8524 INFO localhost odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2021-10-31 06:02:42,888 8524 INFO localhost odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2021-10-31 06:02:42,907 8524 INFO localhost odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2021-10-31 06:02:42,935 8524 INFO localhost odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2021-10-31 06:02:42,959 8524 INFO localhost odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2021-10-31 06:02:42,977 8524 INFO localhost odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2021-10-31 06:02:42,999 8524 INFO localhost odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2021-10-31 06:02:43,018 8524 INFO localhost odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2021-10-31 06:02:43,043 8524 INFO localhost odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2021-10-31 06:02:43,070 8524 INFO localhost odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2021-10-31 06:02:43,116 8524 INFO localhost odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2021-10-31 06:02:43,155 8524 INFO localhost odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2021-10-31 06:02:43,188 8524 INFO localhost odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2021-10-31 06:02:43,221 8524 INFO localhost odoo.modules.loading: loading sms/security/sms_security.xml 
+2021-10-31 06:02:43,238 8524 INFO localhost odoo.modules.loading: Module sms: loading demo 
+2021-10-31 06:02:43,238 8524 INFO localhost odoo.modules.loading: loading sms/data/sms_demo.xml 
+2021-10-31 06:02:43,251 8524 INFO localhost odoo.modules.loading: loading sms/data/mail_demo.xml 
+2021-10-31 06:02:43,322 8524 INFO localhost odoo.addons.base.models.ir_translation: module sms: loading base translation file es for language es_PE 
+2021-10-31 06:02:43,329 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sms\i18n\es.po 
+2021-10-31 06:02:43,385 8524 INFO localhost odoo.addons.base.models.ir_translation: module sms: no translation for language es_PE 
+2021-10-31 06:02:43,410 8524 INFO localhost odoo.modules.loading: Module sms loaded in 1.46s, 722 queries 
+2021-10-31 06:02:43,410 8524 INFO localhost odoo.modules.loading: Loading module snailmail (28/40) 
+2021-10-31 06:02:43,790 8524 INFO localhost odoo.modules.registry: module snailmail: creating or updating database tables 
+2021-10-31 06:02:44,129 8524 INFO localhost odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2021-10-31 06:02:44,148 8524 INFO localhost odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2021-10-31 06:02:44,171 8524 INFO localhost odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2021-10-31 06:02:44,203 8524 INFO localhost odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2021-10-31 06:02:44,216 8524 INFO localhost odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2021-10-31 06:02:44,238 8524 INFO localhost odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2021-10-31 06:02:44,256 8524 INFO localhost odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2021-10-31 06:02:44,273 8524 INFO localhost odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2021-10-31 06:02:44,302 8524 INFO localhost odoo.modules.loading: Module snailmail: loading demo 
+2021-10-31 06:02:44,307 8524 INFO localhost odoo.addons.base.models.ir_translation: module snailmail: loading base translation file es for language es_PE 
+2021-10-31 06:02:44,314 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\snailmail\i18n\es.po 
+2021-10-31 06:02:44,350 8524 INFO localhost odoo.addons.base.models.ir_translation: module snailmail: no translation for language es_PE 
+2021-10-31 06:02:44,370 8524 INFO localhost odoo.modules.loading: Module snailmail loaded in 0.96s, 387 queries 
+2021-10-31 06:02:44,370 8524 INFO localhost odoo.modules.loading: Loading module web_unsplash (29/40) 
+2021-10-31 06:02:44,621 8524 INFO localhost odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2021-10-31 06:02:44,781 8524 INFO localhost odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2021-10-31 06:02:44,820 8524 INFO localhost odoo.modules.loading: Module web_unsplash: loading demo 
+2021-10-31 06:02:44,824 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_unsplash: loading base translation file es for language es_PE 
+2021-10-31 06:02:44,830 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\web_unsplash\i18n\es.po 
+2021-10-31 06:02:44,849 8524 INFO localhost odoo.addons.base.models.ir_translation: module web_unsplash: no translation for language es_PE 
+2021-10-31 06:02:44,867 8524 INFO localhost odoo.modules.loading: Module web_unsplash loaded in 0.50s, 101 queries 
+2021-10-31 06:02:44,868 8524 INFO localhost odoo.modules.loading: Loading module auth_totp_portal (30/40) 
+2021-10-31 06:02:45,081 8524 INFO localhost odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2021-10-31 06:02:45,111 8524 INFO localhost odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2021-10-31 06:02:45,166 8524 INFO localhost odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2021-10-31 06:02:45,182 8524 INFO localhost odoo.modules.loading: Module auth_totp_portal: loading demo 
+2021-10-31 06:02:45,188 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp_portal: loading base translation file es for language es_PE 
+2021-10-31 06:02:45,194 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\auth_totp_portal\i18n\es.po 
+2021-10-31 06:02:45,212 8524 INFO localhost odoo.addons.base.models.ir_translation: module auth_totp_portal: no translation for language es_PE 
+2021-10-31 06:02:45,228 8524 INFO localhost odoo.modules.loading: Module auth_totp_portal loaded in 0.36s, 86 queries 
+2021-10-31 06:02:45,228 8524 INFO localhost odoo.modules.loading: Loading module digest (31/40) 
+2021-10-31 06:02:45,475 8524 INFO localhost odoo.modules.registry: module digest: creating or updating database tables 
+2021-10-31 06:02:45,684 8524 INFO localhost odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2021-10-31 06:02:45,707 8524 INFO localhost odoo.modules.loading: loading digest/data/digest_data.xml 
+2021-10-31 06:02:45,741 8524 INFO localhost odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2021-10-31 06:02:45,775 8524 INFO localhost odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2021-10-31 06:02:45,792 8524 INFO localhost odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2021-10-31 06:02:45,805 8524 INFO localhost odoo.modules.loading: loading digest/views/digest_views.xml 
+2021-10-31 06:02:45,878 8524 INFO localhost odoo.modules.loading: loading digest/views/digest_templates.xml 
+2021-10-31 06:02:45,899 8524 INFO localhost odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2021-10-31 06:02:45,935 8524 INFO localhost odoo.modules.loading: Module digest: loading demo 
+2021-10-31 06:02:45,943 8524 INFO localhost odoo.addons.base.models.ir_translation: module digest: loading base translation file es for language es_PE 
+2021-10-31 06:02:45,950 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\digest\i18n\es.po 
+2021-10-31 06:02:45,988 8524 INFO localhost odoo.addons.base.models.ir_translation: module digest: no translation for language es_PE 
+2021-10-31 06:02:46,018 8524 INFO localhost odoo.modules.loading: Module digest loaded in 0.79s, 318 queries 
+2021-10-31 06:02:46,018 8524 INFO localhost odoo.modules.loading: Loading module account (32/40) 
+2021-10-31 06:02:47,444 8524 INFO localhost odoo.modules.registry: module account: creating or updating database tables 
+2021-10-31 06:02:49,675 8524 INFO localhost odoo.models: Storing computed values of res.company.invoice_terms_html 
+2021-10-31 06:02:49,675 8524 INFO localhost odoo.models: Storing computed values of res.company.account_fiscal_country_id 
+2021-10-31 06:02:53,312 8524 INFO localhost odoo.modules.loading: loading account/security/account_security.xml 
+2021-10-31 06:02:53,955 8524 INFO localhost odoo.modules.loading: loading account/security/ir.model.access.csv 
+2021-10-31 06:02:54,148 8524 INFO localhost odoo.modules.loading: loading account/data/data_account_type.xml 
+2021-10-31 06:02:54,194 8524 INFO localhost odoo.modules.loading: loading account/data/account_data.xml 
+2021-10-31 06:02:54,305 8524 INFO localhost odoo.modules.loading: loading account/data/digest_data.xml 
+2021-10-31 06:02:54,322 8524 INFO localhost odoo.modules.loading: loading account/views/account_report.xml 
+2021-10-31 06:02:54,361 8524 INFO localhost odoo.modules.loading: loading account/data/mail_template_data.xml 
+2021-10-31 06:02:54,381 8524 INFO localhost odoo.modules.loading: loading account/views/account_payment_view.xml 
+2021-10-31 06:02:54,476 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2021-10-31 06:02:54,494 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2021-10-31 06:02:54,512 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2021-10-31 06:02:54,533 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2021-10-31 06:02:54,557 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2021-10-31 06:02:54,575 8524 INFO localhost odoo.modules.loading: loading account/views/account_move_views.xml 
+2021-10-31 06:02:55,083 8524 INFO localhost odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2021-10-31 06:02:55,109 8524 INFO localhost odoo.modules.loading: loading account/wizard/pos_box.xml 
+2021-10-31 06:02:55,122 8524 INFO localhost odoo.modules.loading: loading account/views/account_account_type_views.xml 
+2021-10-31 06:02:55,150 8524 INFO localhost odoo.modules.loading: loading account/views/account_account_views.xml 
+2021-10-31 06:02:55,200 8524 INFO localhost odoo.modules.loading: loading account/views/account_group_views.xml 
+2021-10-31 06:02:55,226 8524 INFO localhost odoo.modules.loading: loading account/views/account_journal_views.xml 
+2021-10-31 06:02:55,295 8524 INFO localhost odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2021-10-31 06:02:55,319 8524 INFO localhost odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2021-10-31 06:02:55,417 8524 INFO localhost odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2021-10-31 06:02:55,462 8524 INFO localhost odoo.modules.loading: loading account/views/account_tax_views.xml 
+2021-10-31 06:02:55,532 8524 INFO localhost odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2021-10-31 06:02:55,546 8524 INFO localhost odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2021-10-31 06:02:55,589 8524 INFO localhost odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2021-10-31 06:02:55,664 8524 INFO localhost odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2021-10-31 06:02:55,682 8524 INFO localhost odoo.modules.loading: loading account/views/report_statement.xml 
+2021-10-31 06:02:55,695 8524 INFO localhost odoo.modules.loading: loading account/views/terms_template.xml 
+2021-10-31 06:02:55,717 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2021-10-31 06:02:55,736 8524 INFO localhost odoo.modules.loading: loading account/views/res_company_views.xml 
+2021-10-31 06:02:55,825 8524 INFO localhost odoo.modules.loading: loading account/views/product_view.xml 
+2021-10-31 06:02:55,906 8524 INFO localhost odoo.modules.loading: loading account/views/account_analytic_view.xml 
+2021-10-31 06:02:55,989 8524 INFO localhost odoo.modules.loading: loading account/views/report_invoice.xml 
+2021-10-31 06:02:56,037 8524 INFO localhost odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2021-10-31 06:02:56,107 8524 INFO localhost odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2021-10-31 06:02:56,138 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_report_common_view.xml 
+2021-10-31 06:02:56,153 8524 INFO localhost odoo.modules.loading: loading account/views/report_journal.xml 
+2021-10-31 06:02:56,168 8524 INFO localhost odoo.modules.loading: loading account/views/tax_adjustments.xml 
+2021-10-31 06:02:56,179 8524 INFO localhost odoo.modules.loading: loading account/wizard/wizard_tax_adjustments_view.xml 
+2021-10-31 06:02:56,194 8524 INFO localhost odoo.modules.loading: loading account/views/ir_module_views.xml 
+2021-10-31 06:02:56,214 8524 INFO localhost odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2021-10-31 06:02:56,272 8524 INFO localhost odoo.modules.loading: loading account/views/partner_view.xml 
+2021-10-31 06:02:56,355 8524 INFO localhost odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2021-10-31 06:02:56,382 8524 INFO localhost odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2021-10-31 06:02:56,434 8524 INFO localhost odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2021-10-31 06:02:56,453 8524 INFO localhost odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2021-10-31 06:02:56,515 8524 INFO localhost odoo.modules.loading: loading account/data/service_cron.xml 
+2021-10-31 06:02:56,529 8524 INFO localhost odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2021-10-31 06:02:56,559 8524 INFO localhost odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2021-10-31 06:02:56,591 8524 INFO localhost odoo.modules.loading: loading account/views/digest_views.xml 
+2021-10-31 06:02:56,607 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2021-10-31 06:02:56,629 8524 INFO localhost odoo.modules.loading: loading account/views/account_tax_report_views.xml 
+2021-10-31 06:02:56,676 8524 INFO localhost odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2021-10-31 06:02:56,691 8524 INFO localhost odoo.modules.loading: loading account/views/res_currency.xml 
+2021-10-31 06:02:56,707 8524 INFO localhost odoo.modules.loading: loading account/views/account_menuitem.xml 
+2021-10-31 06:02:57,171 8524 INFO localhost odoo.modules.loading: loading account/views/account_analytic_default_view.xml 
+2021-10-31 06:02:57,217 8524 INFO localhost odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2021-10-31 06:02:57,246 8524 INFO localhost odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2021-10-31 06:02:57,263 8524 INFO localhost odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2021-10-31 06:02:57,284 8524 INFO localhost odoo.modules.loading: Module account: loading demo 
+2021-10-31 06:02:57,284 8524 INFO localhost odoo.modules.loading: loading account/demo/account_demo.xml 
+2021-10-31 06:02:57,640 8524 INFO localhost odoo.addons.base.models.ir_translation: module account: loading base translation file es for language es_PE 
+2021-10-31 06:02:57,647 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\account\i18n\es.po 
+2021-10-31 06:02:58,406 8524 INFO localhost odoo.addons.base.models.ir_translation: module account: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:02:58,414 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\account\i18n\es_PE.po 
+2021-10-31 06:02:58,688 8524 INFO localhost odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['l10n_pe'] to user __system__ #1 via 127.0.0.1 
+2021-10-31 06:02:58,944 8524 INFO localhost odoo.modules.loading: Module account loaded in 12.93s, 6929 queries 
+2021-10-31 06:02:58,944 8524 INFO localhost odoo.modules.loading: Loading module account_edi (33/40) 
+2021-10-31 06:02:59,390 8524 INFO localhost odoo.modules.registry: module account_edi: creating or updating database tables 
+2021-10-31 06:02:59,784 8524 INFO localhost odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2021-10-31 06:02:59,833 8524 INFO localhost odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2021-10-31 06:02:59,853 8524 INFO localhost odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2021-10-31 06:02:59,928 8524 INFO localhost odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2021-10-31 06:02:59,959 8524 INFO localhost odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2021-10-31 06:02:59,976 8524 INFO localhost odoo.modules.loading: loading account_edi/data/cron.xml 
+2021-10-31 06:02:59,996 8524 INFO localhost odoo.modules.loading: Module account_edi: loading demo 
+2021-10-31 06:03:00,005 8524 INFO localhost odoo.addons.base.models.ir_translation: module account_edi: loading base translation file es for language es_PE 
+2021-10-31 06:03:00,015 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\account_edi\i18n\es.po 
+2021-10-31 06:03:00,052 8524 INFO localhost odoo.addons.base.models.ir_translation: module account_edi: no translation for language es_PE 
+2021-10-31 06:03:00,074 8524 INFO localhost odoo.modules.loading: Module account_edi loaded in 1.13s, 312 queries 
+2021-10-31 06:03:00,074 8524 INFO localhost odoo.modules.loading: Loading module payment (34/40) 
+2021-10-31 06:03:00,650 8524 INFO localhost odoo.modules.registry: module payment: creating or updating database tables 
+2021-10-31 06:03:01,609 8524 INFO localhost odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2021-10-31 06:03:02,210 8524 INFO localhost odoo.modules.loading: loading payment/data/payment_acquirer_data.xml 
+2021-10-31 06:03:02,765 8524 INFO localhost odoo.modules.loading: loading payment/data/payment_cron.xml 
+2021-10-31 06:03:02,786 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2021-10-31 06:03:02,848 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_templates.xml 
+2021-10-31 06:03:02,906 8524 INFO localhost odoo.modules.loading: loading payment/views/account_invoice_views.xml 
+2021-10-31 06:03:02,938 8524 INFO localhost odoo.modules.loading: loading payment/views/account_journal_views.xml 
+2021-10-31 06:03:02,969 8524 INFO localhost odoo.modules.loading: loading payment/views/account_payment_views.xml 
+2021-10-31 06:03:02,998 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_acquirer_views.xml 
+2021-10-31 06:03:03,077 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2021-10-31 06:03:03,122 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2021-10-31 06:03:03,181 8524 INFO localhost odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2021-10-31 06:03:03,227 8524 INFO localhost odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2021-10-31 06:03:03,258 8524 INFO localhost odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2021-10-31 06:03:03,481 8524 INFO localhost odoo.modules.loading: loading payment/security/payment_security.xml 
+2021-10-31 06:03:03,575 8524 INFO localhost odoo.modules.loading: loading payment/wizards/account_payment_register_views.xml 
+2021-10-31 06:03:03,598 8524 INFO localhost odoo.modules.loading: loading payment/wizards/payment_acquirer_onboarding_templates.xml 
+2021-10-31 06:03:03,627 8524 INFO localhost odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2021-10-31 06:03:03,649 8524 INFO localhost odoo.modules.loading: loading payment/wizards/payment_refund_wizard_views.xml 
+2021-10-31 06:03:03,666 8524 INFO localhost odoo.modules.loading: Module payment: loading demo 
+2021-10-31 06:03:03,672 8524 INFO localhost odoo.addons.base.models.ir_translation: module payment: loading base translation file es for language es_PE 
+2021-10-31 06:03:03,679 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\payment\i18n\es.po 
+2021-10-31 06:03:03,777 8524 INFO localhost odoo.addons.base.models.ir_translation: module payment: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:03,785 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\payment\i18n\es_PE.po 
+2021-10-31 06:03:03,868 8524 INFO localhost odoo.modules.loading: Module payment loaded in 3.79s, 1108 queries 
+2021-10-31 06:03:03,868 8524 INFO localhost odoo.modules.loading: Loading module snailmail_account (35/40) 
+2021-10-31 06:03:04,331 8524 INFO localhost odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2021-10-31 06:03:04,597 8524 INFO localhost odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2021-10-31 06:03:04,636 8524 INFO localhost odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2021-10-31 06:03:04,662 8524 INFO localhost odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2021-10-31 06:03:04,685 8524 INFO localhost odoo.modules.loading: Module snailmail_account: loading demo 
+2021-10-31 06:03:04,690 8524 INFO localhost odoo.addons.base.models.ir_translation: module snailmail_account: loading base translation file es for language es_PE 
+2021-10-31 06:03:04,697 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\snailmail_account\i18n\es.po 
+2021-10-31 06:03:04,719 8524 INFO localhost odoo.addons.base.models.ir_translation: module snailmail_account: no translation for language es_PE 
+2021-10-31 06:03:04,741 8524 INFO localhost odoo.modules.loading: Module snailmail_account loaded in 0.87s, 136 queries 
+2021-10-31 06:03:04,742 8524 INFO localhost odoo.modules.loading: Loading module account_edi_facturx (36/40) 
+2021-10-31 06:03:05,227 8524 INFO localhost odoo.modules.registry: module account_edi_facturx: creating or updating database tables 
+2021-10-31 06:03:05,254 8524 INFO localhost odoo.modules.loading: loading account_edi_facturx/data/account_edi_data.xml 
+2021-10-31 06:03:05,412 8524 INFO localhost odoo.modules.loading: loading account_edi_facturx/data/facturx_templates.xml 
+2021-10-31 06:03:05,446 8524 INFO localhost odoo.modules.loading: Module account_edi_facturx: loading demo 
+2021-10-31 06:03:05,452 8524 INFO localhost odoo.addons.base.models.ir_translation: module account_edi_facturx: no translation for language es_PE 
+2021-10-31 06:03:05,466 8524 INFO localhost odoo.modules.loading: Module account_edi_facturx loaded in 0.72s, 61 queries 
+2021-10-31 06:03:05,467 8524 INFO localhost odoo.modules.loading: Loading module payment_transfer (37/40) 
+2021-10-31 06:03:05,930 8524 INFO localhost odoo.modules.registry: module payment_transfer: creating or updating database tables 
+2021-10-31 06:03:06,144 8524 INFO localhost odoo.modules.loading: loading payment_transfer/views/payment_views.xml 
+2021-10-31 06:03:06,167 8524 INFO localhost odoo.modules.loading: loading payment_transfer/views/payment_transfer_templates.xml 
+2021-10-31 06:03:06,192 8524 INFO localhost odoo.modules.loading: loading payment_transfer/data/payment_acquirer_data.xml 
+2021-10-31 06:03:06,230 8524 INFO localhost odoo.modules.loading: Module payment_transfer: loading demo 
+2021-10-31 06:03:06,234 8524 INFO localhost odoo.addons.base.models.ir_translation: module payment_transfer: loading base translation file es for language es_PE 
+2021-10-31 06:03:06,240 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\payment_transfer\i18n\es.po 
+2021-10-31 06:03:06,259 8524 INFO localhost odoo.addons.base.models.ir_translation: module payment_transfer: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:06,266 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\payment_transfer\i18n\es_PE.po 
+2021-10-31 06:03:06,299 8524 INFO localhost odoo.modules.loading: Module payment_transfer loaded in 0.83s, 133 queries 
+2021-10-31 06:03:06,299 8524 INFO localhost odoo.modules.loading: Loading module sale (38/40) 
+2021-10-31 06:03:07,277 8524 INFO localhost odoo.modules.registry: module sale: creating or updating database tables 
+2021-10-31 06:03:09,032 8524 INFO localhost odoo.modules.loading: loading sale/security/sale_security.xml 
+2021-10-31 06:03:09,317 8524 INFO localhost odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2021-10-31 06:03:09,408 8524 INFO localhost odoo.modules.loading: loading sale/report/sale_report.xml 
+2021-10-31 06:03:09,429 8524 INFO localhost odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2021-10-31 06:03:09,474 8524 INFO localhost odoo.modules.loading: loading sale/report/sale_report_templates.xml 
+2021-10-31 06:03:09,511 8524 INFO localhost odoo.modules.loading: loading sale/report/invoice_report_templates.xml 
+2021-10-31 06:03:09,528 8524 INFO localhost odoo.modules.loading: loading sale/report/report_all_channels_sales_views.xml 
+2021-10-31 06:03:09,540 8524 INFO localhost odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2021-10-31 06:03:09,557 8524 INFO localhost odoo.modules.loading: loading sale/data/mail_data_various.xml 
+2021-10-31 06:03:09,596 8524 INFO localhost odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2021-10-31 06:03:09,616 8524 INFO localhost odoo.modules.loading: loading sale/data/mail_templates.xml 
+2021-10-31 06:03:09,633 8524 INFO localhost odoo.modules.loading: loading sale/data/sale_data.xml 
+2021-10-31 06:03:09,650 8524 INFO localhost odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2021-10-31 06:03:09,669 8524 INFO localhost odoo.modules.loading: loading sale/views/sale_views.xml 
+2021-10-31 06:03:10,201 8524 INFO localhost odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2021-10-31 06:03:10,247 8524 INFO localhost odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2021-10-31 06:03:10,321 8524 INFO localhost odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2021-10-31 06:03:10,342 8524 INFO localhost odoo.modules.loading: loading sale/views/variant_templates.xml 
+2021-10-31 06:03:10,362 8524 INFO localhost odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2021-10-31 06:03:10,424 8524 INFO localhost odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2021-10-31 06:03:10,465 8524 INFO localhost odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2021-10-31 06:03:10,521 8524 INFO localhost odoo.modules.loading: loading sale/views/payment_templates.xml 
+2021-10-31 06:03:10,549 8524 INFO localhost odoo.modules.loading: loading sale/views/payment_views.xml 
+2021-10-31 06:03:10,583 8524 INFO localhost odoo.modules.loading: loading sale/views/product_views.xml 
+2021-10-31 06:03:10,603 8524 INFO localhost odoo.modules.loading: loading sale/views/product_packaging_views.xml 
+2021-10-31 06:03:10,632 8524 INFO localhost odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2021-10-31 06:03:10,665 8524 INFO localhost odoo.modules.loading: loading sale/wizard/sale_order_cancel_views.xml 
+2021-10-31 06:03:10,681 8524 INFO localhost odoo.modules.loading: loading sale/wizard/sale_payment_link_views.xml 
+2021-10-31 06:03:10,695 8524 INFO localhost odoo.modules.loading: Module sale: loading demo 
+2021-10-31 06:03:10,696 8524 INFO localhost odoo.modules.loading: loading sale/data/product_product_demo.xml 
+2021-10-31 06:03:11,032 8524 INFO localhost odoo.modules.loading: loading sale/data/sale_demo.xml 
+2021-10-31 06:03:13,643 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:13,644 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 1 and Message-Id '<300859528405064.1635660193.578846693038940-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:13,667 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [1] 
+2021-10-31 06:03:13,667 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:13,735 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:13,736 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 2 and Message-Id '<697491316897549.1635660193.703845024108887-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:13,752 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [2] 
+2021-10-31 06:03:13,753 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:13,839 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:13,840 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 3 and Message-Id '<355562047415679.1635660193.799534559249878-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:13,855 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [3] 
+2021-10-31 06:03:13,855 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:13,920 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:13,921 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 4 and Message-Id '<752996702735852.1635660193.890786886215210-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:13,932 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [4] 
+2021-10-31 06:03:13,932 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:13,990 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:13,991 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 5 and Message-Id '<837999162937974.1635660193.960862874984741-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:14,004 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [5] 
+2021-10-31 06:03:14,005 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:14,058 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:14,059 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 6 and Message-Id '<575494843545437.1635660194.031419038772583-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:14,071 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [6] 
+2021-10-31 06:03:14,071 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:14,123 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:14,124 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 7 and Message-Id '<341071354380532.1635660194.098924398422241-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:14,134 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [7] 
+2021-10-31 06:03:14,135 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:14,187 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:03:14,188 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 8 and Message-Id '<634645808345443.1635660194.163483858108521-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:03:14,198 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [8] 
+2021-10-31 06:03:14,198 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:03:14,208 8524 INFO localhost odoo.addons.base.models.ir_translation: module sale: loading base translation file es for language es_PE 
+2021-10-31 06:03:14,215 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sale\i18n\es.po 
+2021-10-31 06:03:14,378 8524 INFO localhost odoo.addons.base.models.ir_translation: module sale: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:14,385 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sale\i18n\es_PE.po 
+2021-10-31 06:03:14,695 8524 INFO localhost odoo.modules.loading: Module sale loaded in 8.40s, 4808 queries (+3 other) 
+2021-10-31 06:03:14,695 8524 INFO localhost odoo.modules.loading: Loading module sale_management (39/40) 
+2021-10-31 06:03:15,156 8524 INFO localhost odoo.modules.registry: module sale_management: creating or updating database tables 
+2021-10-31 06:03:15,699 8524 INFO localhost odoo.modules.loading: loading sale_management/security/sale_management_security.xml 
+2021-10-31 06:03:15,721 8524 INFO localhost odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2021-10-31 06:03:15,745 8524 INFO localhost odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml 
+2021-10-31 06:03:15,766 8524 INFO localhost odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml 
+2021-10-31 06:03:15,821 8524 INFO localhost odoo.modules.loading: loading sale_management/security/ir.model.access.csv 
+2021-10-31 06:03:15,851 8524 INFO localhost odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml 
+2021-10-31 06:03:15,891 8524 INFO localhost odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2021-10-31 06:03:15,911 8524 INFO localhost odoo.modules.loading: loading sale_management/views/sale_management_views.xml 
+2021-10-31 06:03:16,014 8524 INFO localhost odoo.modules.loading: loading sale_management/views/digest_views.xml 
+2021-10-31 06:03:16,032 8524 INFO localhost odoo.modules.loading: loading sale_management/views/sale_order_views.xml 
+2021-10-31 06:03:16,072 8524 INFO localhost odoo.modules.loading: loading sale_management/report/sale_report_templates.xml 
+2021-10-31 06:03:16,090 8524 INFO localhost odoo.modules.loading: Module sale_management: loading demo 
+2021-10-31 06:03:16,090 8524 INFO localhost odoo.modules.loading: loading sale_management/data/sale_order_template_demo.xml 
+2021-10-31 06:03:16,141 8524 INFO localhost odoo.addons.base.models.ir_translation: module sale_management: loading base translation file es for language es_PE 
+2021-10-31 06:03:16,147 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\sale_management\i18n\es.po 
+2021-10-31 06:03:16,189 8524 INFO localhost odoo.addons.base.models.ir_translation: module sale_management: no translation for language es_PE 
+2021-10-31 06:03:16,226 8524 INFO localhost odoo.modules.loading: Module sale_management loaded in 1.53s, 641 queries 
+2021-10-31 06:03:16,226 8524 INFO localhost odoo.modules.loading: Loading module sale_sms (40/40) 
+2021-10-31 06:03:16,612 8524 INFO localhost odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2021-10-31 06:03:16,773 8524 INFO localhost odoo.modules.loading: loading sale_sms/security/security.xml 
+2021-10-31 06:03:16,790 8524 INFO localhost odoo.modules.loading: Module sale_sms: loading demo 
+2021-10-31 06:03:16,798 8524 INFO localhost odoo.addons.base.models.ir_translation: module sale_sms: no translation for language es_PE 
+2021-10-31 06:03:16,808 8524 INFO localhost odoo.modules.loading: Module sale_sms loaded in 0.58s, 47 queries 
+2021-10-31 06:03:16,809 8524 INFO localhost odoo.modules.loading: 40 modules loaded in 59.02s, 27500 queries (+3 extra) 
+2021-10-31 06:03:16,821 8524 INFO localhost odoo.modules.loading: loading 48 modules... 
+2021-10-31 06:03:16,822 8524 INFO localhost odoo.modules.loading: Loading module base_address_city (2/48) 
+2021-10-31 06:03:17,198 8524 INFO localhost odoo.modules.registry: module base_address_city: creating or updating database tables 
+2021-10-31 06:03:17,561 8524 INFO localhost odoo.modules.loading: loading base_address_city/security/ir.model.access.csv 
+2021-10-31 06:03:17,580 8524 INFO localhost odoo.modules.loading: loading base_address_city/views/res_city_view.xml 
+2021-10-31 06:03:17,609 8524 INFO localhost odoo.modules.loading: loading base_address_city/views/res_country_view.xml 
+2021-10-31 06:03:17,639 8524 INFO localhost odoo.modules.loading: Module base_address_city: loading demo 
+2021-10-31 06:03:17,653 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_address_city: loading base translation file es for language es_PE 
+2021-10-31 06:03:17,662 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_address_city\i18n\es.po 
+2021-10-31 06:03:17,688 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_address_city: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:17,696 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_address_city\i18n\es_PE.po 
+2021-10-31 06:03:17,734 8524 INFO localhost odoo.modules.loading: Module base_address_city loaded in 0.91s, 169 queries 
+2021-10-31 06:03:17,735 8524 INFO localhost odoo.modules.loading: Loading module base_address_extended (3/48) 
+2021-10-31 06:03:18,293 8524 INFO localhost odoo.modules.registry: module base_address_extended: creating or updating database tables 
+2021-10-31 06:03:18,426 8524 INFO localhost odoo.models: Storing computed values of res.partner.street_name 
+2021-10-31 06:03:18,427 8524 INFO localhost odoo.models: Storing computed values of res.partner.street_number 
+2021-10-31 06:03:18,427 8524 INFO localhost odoo.models: Storing computed values of res.partner.street_number2 
+2021-10-31 06:03:18,953 8524 INFO localhost odoo.modules.loading: loading base_address_extended/views/base_address_extended.xml 
+2021-10-31 06:03:19,062 8524 INFO localhost odoo.modules.loading: loading base_address_extended/data/base_address_extended_data.xml 
+2021-10-31 06:03:19,099 8524 INFO localhost odoo.modules.loading: Module base_address_extended: loading demo 
+2021-10-31 06:03:19,118 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_address_extended: loading base translation file es for language es_PE 
+2021-10-31 06:03:19,167 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_address_extended\i18n\es.po 
+2021-10-31 06:03:19,254 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_address_extended: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:19,270 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_address_extended\i18n\es_PE.po 
+2021-10-31 06:03:20,170 8524 INFO localhost odoo.modules.loading: Module base_address_extended loaded in 2.44s, 399 queries 
+2021-10-31 06:03:20,171 8524 INFO localhost odoo.modules.loading: Loading module contacts (20/48) 
+2021-10-31 06:03:20,653 8524 INFO localhost odoo.modules.registry: module contacts: creating or updating database tables 
+2021-10-31 06:03:20,730 8524 INFO localhost odoo.modules.loading: loading contacts/views/contact_views.xml 
+2021-10-31 06:03:21,775 8524 INFO localhost odoo.modules.loading: Module contacts: loading demo 
+2021-10-31 06:03:21,791 8524 INFO localhost odoo.addons.base.models.ir_translation: module contacts: loading base translation file es for language es_PE 
+2021-10-31 06:03:21,809 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\contacts\i18n\es.po 
+2021-10-31 06:03:21,881 8524 INFO localhost odoo.addons.base.models.ir_translation: module contacts: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:21,896 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\contacts\i18n\es_PE.po 
+2021-10-31 06:03:21,955 8524 INFO localhost odoo.modules.loading: Module contacts loaded in 1.78s, 241 queries 
+2021-10-31 06:03:21,955 8524 INFO localhost odoo.modules.loading: Loading module account_debit_note (36/48) 
+2021-10-31 06:03:22,557 8524 INFO localhost odoo.modules.registry: module account_debit_note: creating or updating database tables 
+2021-10-31 06:03:22,851 8524 INFO localhost odoo.modules.loading: loading account_debit_note/wizard/account_debit_note_view.xml 
+2021-10-31 06:03:22,882 8524 INFO localhost odoo.modules.loading: loading account_debit_note/views/account_move_view.xml 
+2021-10-31 06:03:22,912 8524 INFO localhost odoo.modules.loading: loading account_debit_note/security/ir.model.access.csv 
+2021-10-31 06:03:22,935 8524 INFO localhost odoo.modules.loading: Module account_debit_note: loading demo 
+2021-10-31 06:03:22,944 8524 INFO localhost odoo.addons.base.models.ir_translation: module account_debit_note: loading base translation file es for language es_PE 
+2021-10-31 06:03:22,950 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\account_debit_note\i18n\es.po 
+2021-10-31 06:03:22,976 8524 INFO localhost odoo.addons.base.models.ir_translation: module account_debit_note: no translation for language es_PE 
+2021-10-31 06:03:22,996 8524 INFO localhost odoo.modules.loading: Module account_debit_note loaded in 1.04s, 149 queries 
+2021-10-31 06:03:22,996 8524 INFO localhost odoo.modules.loading: Loading module base_vat (38/48) 
+2021-10-31 06:03:23,591 8524 INFO localhost odoo.modules.registry: module base_vat: creating or updating database tables 
+2021-10-31 06:03:23,887 8524 INFO localhost odoo.modules.loading: loading base_vat/views/res_company_views.xml 
+2021-10-31 06:03:23,909 8524 INFO localhost odoo.modules.loading: loading base_vat/views/res_partner_views.xml 
+2021-10-31 06:03:23,951 8524 INFO localhost odoo.modules.loading: loading base_vat/views/res_config_settings_views.xml 
+2021-10-31 06:03:23,996 8524 INFO localhost odoo.modules.loading: Module base_vat: loading demo 
+2021-10-31 06:03:24,000 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_vat: loading base translation file es for language es_PE 
+2021-10-31 06:03:24,010 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_vat\i18n\es.po 
+2021-10-31 06:03:24,034 8524 INFO localhost odoo.addons.base.models.ir_translation: module base_vat: loading translation file (es_PE) for language es_PE 
+2021-10-31 06:03:24,047 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\base_vat\i18n\es_PE.po 
+2021-10-31 06:03:24,193 8524 INFO localhost odoo.modules.loading: Module base_vat loaded in 1.20s, 162 queries 
+2021-10-31 06:03:24,193 8524 INFO localhost odoo.modules.loading: Loading module l10n_latam_base (42/48) 
+2021-10-31 06:03:24,689 8524 INFO localhost odoo.modules.registry: module l10n_latam_base: creating or updating database tables 
+2021-10-31 06:03:25,001 8524 INFO localhost odoo.modules.loading: loading l10n_latam_base/data/l10n_latam.identification.type.csv 
+2021-10-31 06:03:25,022 8524 INFO localhost odoo.modules.loading: loading l10n_latam_base/views/res_partner_view.xml 
+2021-10-31 06:03:25,054 8524 INFO localhost odoo.modules.loading: loading l10n_latam_base/views/l10n_latam_identification_type_view.xml 
+2021-10-31 06:03:25,092 8524 INFO localhost odoo.modules.loading: loading l10n_latam_base/security/ir.model.access.csv 
+2021-10-31 06:03:25,124 8524 INFO localhost odoo.modules.loading: Module l10n_latam_base: loading demo 
+2021-10-31 06:03:25,135 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_latam_base: loading base translation file es for language es_PE 
+2021-10-31 06:03:25,147 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\l10n_latam_base\i18n\es.po 
+2021-10-31 06:03:25,177 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_latam_base: no translation for language es_PE 
+2021-10-31 06:03:25,210 8524 INFO localhost odoo.modules.loading: Module l10n_latam_base loaded in 1.02s, 189 queries 
+2021-10-31 06:03:25,210 8524 INFO localhost odoo.modules.loading: Loading module l10n_latam_invoice_document (43/48) 
+2021-10-31 06:03:26,169 8524 INFO localhost odoo.modules.registry: module l10n_latam_invoice_document: creating or updating database tables 
+2021-10-31 06:03:26,668 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/views/account_journal_view.xml 
+2021-10-31 06:03:26,694 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/views/account_move_line_view.xml 
+2021-10-31 06:03:26,721 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/views/account_move_view.xml 
+2021-10-31 06:03:26,784 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/views/l10n_latam_document_type_view.xml 
+2021-10-31 06:03:26,834 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/views/report_templates.xml 
+2021-10-31 06:03:26,897 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/report/invoice_report_view.xml 
+2021-10-31 06:03:26,940 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/wizards/account_move_reversal_view.xml 
+2021-10-31 06:03:26,978 8524 INFO localhost odoo.modules.loading: loading l10n_latam_invoice_document/security/ir.model.access.csv 
+2021-10-31 06:03:27,011 8524 INFO localhost odoo.modules.loading: Module l10n_latam_invoice_document: loading demo 
+2021-10-31 06:03:27,016 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_latam_invoice_document: loading base translation file es for language es_PE 
+2021-10-31 06:03:27,024 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\l10n_latam_invoice_document\i18n\es.po 
+2021-10-31 06:03:27,060 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_latam_invoice_document: no translation for language es_PE 
+2021-10-31 06:03:27,085 8524 INFO localhost odoo.modules.loading: Module l10n_latam_invoice_document loaded in 1.87s, 375 queries 
+2021-10-31 06:03:27,086 8524 INFO localhost odoo.modules.loading: Loading module l10n_pe (46/48) 
+2021-10-31 06:03:28,067 8524 INFO localhost odoo.modules.registry: module l10n_pe: creating or updating database tables 
+2021-10-31 06:03:28,907 8524 INFO localhost odoo.modules.loading: loading l10n_pe/security/ir.model.access.csv 
+2021-10-31 06:03:28,937 8524 INFO localhost odoo.modules.loading: loading l10n_pe/views/account_tax_view.xml 
+2021-10-31 06:03:28,961 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/l10n_pe_chart_data.xml 
+2021-10-31 06:03:29,019 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/account.group.template.csv 
+2021-10-31 06:03:29,104 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/account.account.template.csv 
+2021-10-31 06:03:39,049 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/l10n_pe_chart_post_data.xml 
+2021-10-31 06:03:39,065 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/account_tax_group_data.xml 
+2021-10-31 06:03:39,109 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/account_tax_data.xml 
+2021-10-31 06:03:39,234 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/fiscal_position_data.xml 
+2021-10-31 06:03:39,260 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/l10n_latam_document_type_data.xml 
+2021-10-31 06:03:39,294 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/account_chart_template_data.xml 
+2021-10-31 06:03:54,799 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/res.city.csv 
+2021-10-31 06:03:55,026 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/l10n_pe.res.city.district.csv 
+2021-10-31 06:03:56,683 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/res_country_data.xml 
+2021-10-31 06:03:56,717 8524 INFO localhost odoo.modules.loading: loading l10n_pe/data/l10n_latam_identification_type_data.xml 
+2021-10-31 06:03:56,778 8524 INFO localhost odoo.modules.loading: Module l10n_pe: loading demo 
+2021-10-31 06:03:56,779 8524 INFO localhost odoo.modules.loading: loading l10n_pe/demo/demo_company.xml 
+2021-10-31 06:04:12,359 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:04:12,360 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 13 and Message-Id '<792020225361962.1635660252.288780212402344-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:04:12,430 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [13] 
+2021-10-31 06:04:12,431 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:04:12,489 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:04:12,490 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 14 and Message-Id '<216539718341173.1635660252.460694789886475-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:04:12,504 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [14] 
+2021-10-31 06:04:12,504 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:04:12,562 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:04:12,563 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 15 and Message-Id '<357681829100092.1635660252.532267570495605-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:04:12,576 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [15] 
+2021-10-31 06:04:12,576 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:04:12,631 8524 INFO localhost odoo.tests: skip sending email in test mode 
+2021-10-31 06:04:12,632 8524 INFO localhost odoo.addons.mail.models.mail_mail: Mail with ID 16 and Message-Id '<849436916127085.1635660252.602357864379883-openerp-message-notify@DESKTOP-KBAH088>' successfully sent 
+2021-10-31 06:04:12,645 8524 INFO localhost odoo.models.unlink: User #1 deleted mail.mail records with IDs: [16] 
+2021-10-31 06:04:12,645 8524 INFO localhost odoo.addons.mail.models.mail_mail: Sent batch 1 emails via mail server ID #False 
+2021-10-31 06:04:12,662 8524 INFO localhost odoo.modules.loading: loading l10n_pe/demo/demo_partner.xml 
+2021-10-31 06:04:12,719 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_pe: loading base translation file es for language es_PE 
+2021-10-31 06:04:12,726 8524 INFO localhost odoo.tools.translate: loading C:\Program Files\Odoo 15.0.20211031\server\odoo\addons\l10n_pe\i18n\es.po 
+2021-10-31 06:04:12,754 8524 INFO localhost odoo.addons.base.models.ir_translation: module l10n_pe: no translation for language es_PE 
+2021-10-31 06:04:13,318 8524 INFO localhost odoo.modules.loading: Module l10n_pe loaded in 46.23s, 24079 queries (+16 other) 
+2021-10-31 06:04:13,318 8524 INFO localhost odoo.modules.loading: 48 modules loaded in 56.50s, 25763 queries (+16 extra) 
+2021-10-31 06:04:14,244 8524 INFO localhost odoo.modules.loading: Modules loaded. 
+2021-10-31 06:04:14,248 8524 INFO localhost odoo.modules.registry: Registry loaded in 117.589s 
+2021-10-31 06:04:14,248 8524 INFO localhost odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2021-10-31 06:04:14,262 8524 INFO localhost odoo.modules.registry: Registry changed, signaling through the database 
+2021-10-31 06:04:14,265 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:14] "POST /web/dataset/call_button HTTP/1.1" 200 - 55083 44.256 73.646
+2021-10-31 06:04:14,595 8524 INFO localhost odoo.addons.base.models.ir_http: Generating routing map for key None 
+2021-10-31 06:04:17,126 8524 INFO localhost odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [188] 
+2021-10-31 06:04:26,960 8524 INFO localhost odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [189] 
+2021-10-31 06:04:28,277 8524 INFO localhost odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [190] 
+2021-10-31 06:04:36,327 8524 INFO localhost odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [191] 
+2021-10-31 06:04:36,373 8524 INFO localhost odoo.models.unlink: User #2 deleted ir.attachment records with IDs: [192] 
+2021-10-31 06:04:36,552 8524 INFO localhost odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2021-10-31 06:04:36,577 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:36] "GET /web HTTP/1.1" 200 - 454 0.498 21.489
+2021-10-31 06:04:36,660 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:36] "GET /web/assets/415-63434ce/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.011 0.045
+2021-10-31 06:04:36,660 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:36] "GET /web/assets/414-f10710d/web.assets_common.min.css HTTP/1.1" 200 - 4 0.019 0.038
+2021-10-31 06:04:37,011 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/webclient/translations/16b4b2207a5fde21cad0ba0fa22468e9a330bbdd?lang=es_PE HTTP/1.1" 200 - 5 0.033 0.049
+2021-10-31 06:04:37,041 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/assets/418-6670561/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.002 0.028
+2021-10-31 06:04:37,261 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/assets/416-f10710d/web.assets_common.min.js HTTP/1.1" 200 - 2 0.005 0.351
+2021-10-31 06:04:37,340 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/webclient/load_menus/9cf07ecee529a2e57c1ac8276efd972ea3364e6308f0dffee05427e62517088e HTTP/1.1" 200 - 228 0.243 0.175
+2021-10-31 06:04:37,428 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/webclient/qweb/b456fba20f3e6637eed7b8dfa1a9b08e25a75a1145c4b93d2e92f73e0502d94b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.007 0.496
+2021-10-31 06:04:37,517 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:37] "GET /web/assets/417-63434ce/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.007 0.501
+2021-10-31 06:04:38,259 8524 INFO localhost odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company YourCompany (1) 
+2021-10-31 06:04:38,297 8524 INFO localhost odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2021-10-31 06:04:38,299 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 17 0.054 0.031
+2021-10-31 06:04:38,450 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.012 0.009
+2021-10-31 06:04:38,534 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /web/action/load HTTP/1.1" 200 - 9 0.035 0.034
+2021-10-31 06:04:38,566 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /longpolling/poll HTTP/1.1" 200 - 17 0.064 0.041
+2021-10-31 06:04:38,567 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.152 0.079
+2021-10-31 06:04:38,591 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.071 0.051
+2021-10-31 06:04:38,822 8524 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2021-10-31 06:04:38,890 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.008
+2021-10-31 06:04:38,946 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:04:38] "GET /sale/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:05:28,832 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:05:28] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.010 50.022
+2021-10-31 06:05:29,858 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:05:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.008
+2021-10-31 06:06:19,201 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:06:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.032
+2021-10-31 06:06:20,863 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:06:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.012 0.007
+2021-10-31 06:07:09,563 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:07:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.031
+2021-10-31 06:07:11,854 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:07:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2021-10-31 06:07:59,931 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:07:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.033
+2021-10-31 06:08:02,853 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.009
+2021-10-31 06:08:38,837 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:38] "GET /web/image/mail.channel/1/avatar_128?unique=fa673ffca5d7e084e4517fc4bf61cf39d0ef197c8310298c4ed579f90200ec8e1cfe7d4152961185dfc298fe1744175284cf7672339e9ae516c2713855808b7c HTTP/1.1" 200 - 15 0.015 0.019
+2021-10-31 06:08:38,838 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:38] "POST /mail/inbox/messages HTTP/1.1" 200 - 10 0.029 0.008
+2021-10-31 06:08:46,015 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:46] "POST /web/action/load HTTP/1.1" 200 - 28 0.028 0.020
+2021-10-31 06:08:46,440 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:46] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 63 0.053 0.048
+2021-10-31 06:08:46,807 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.023 0.012
+2021-10-31 06:08:47,141 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.007 0.009
+2021-10-31 06:08:50,291 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.029
+2021-10-31 06:08:52,875 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:52] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.013
+2021-10-31 06:08:57,211 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.006 0.009
+2021-10-31 06:08:57,236 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.025 0.019
+2021-10-31 06:08:57,647 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:08:57] "GET /base/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:17,626 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:17] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.031 0.019
+2021-10-31 06:09:17,958 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.007 0.004
+2021-10-31 06:09:18,300 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:18] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - - - -
+2021-10-31 06:09:19,911 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.012
+2021-10-31 06:09:19,932 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.024 0.016
+2021-10-31 06:09:25,317 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.013 0.019
+2021-10-31 06:09:25,635 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.005
+2021-10-31 06:09:25,992 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:25] "GET /fetchmail/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:25,996 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:25] "GET /l10n_pe/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:25,999 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:25] "GET /iap/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,000 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /mail_bot/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,010 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /partner_autocomplete/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,322 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /payment/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,324 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /payment_transfer/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,328 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /product/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,334 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /snailmail/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,340 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /sms/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,640 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /utm/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:26,654 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:26] "GET /web_unsplash/static/description/icon.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:38,544 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:38] "POST /web/action/load HTTP/1.1" 200 - 50 0.050 0.033
+2021-10-31 06:09:39,091 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:39] "POST /web/dataset/call_kw/sale.order/load_views HTTP/1.1" 200 - 152 0.096 0.119
+2021-10-31 06:09:39,509 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 37 0.035 0.039
+2021-10-31 06:09:39,831 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:39] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 3 0.003 0.006
+2021-10-31 06:09:40,155 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:40] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.004
+2021-10-31 06:09:40,551 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:40] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 6 0.006 0.022
+2021-10-31 06:09:40,616 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:40] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 60 0.053 0.052
+2021-10-31 06:09:40,633 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.033
+2021-10-31 06:09:40,995 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:40] "GET /sale/static/src/img/sale_quotation_onboarding_bg.jpg HTTP/1.1" 200 - - - -
+2021-10-31 06:09:43,201 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:43] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2021-10-31 06:09:46,502 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:46] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 13 0.023 0.015
+2021-10-31 06:09:46,513 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:46] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 17 0.023 0.021
+2021-10-31 06:09:46,524 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:46] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 27 0.039 0.020
+2021-10-31 06:09:46,890 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:46] "POST /web/dataset/call_kw/sale.order/onchange HTTP/1.1" 200 - 27 0.022 0.032
+2021-10-31 06:09:47,285 8524 INFO localhost odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_PE', 'tz': 'America/Lima', 'uid': 2}}> 
+2021-10-31 06:09:47,309 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:47] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:47,320 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:47] "GET /partner_autocomplete/static/lib/jsvat.js HTTP/1.1" 200 - - - -
+2021-10-31 06:09:51,069 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:51] "POST /web_editor/public_render_template HTTP/1.1" 200 - 36 0.027 3.775
+2021-10-31 06:09:51,413 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:51] "GET /web/assets/419-f7184c4/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.002 0.018
+2021-10-31 06:09:51,533 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:51] "GET /web/assets/420-f7184c4/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.002 0.135
+2021-10-31 06:09:51,883 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:51] "GET /web_editor/static/src/xml/editor.xml HTTP/1.1" 200 - - - -
+2021-10-31 06:09:52,264 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:52] "GET /web/static/fonts/google/Roboto/Roboto-Regular.ttf HTTP/1.1" 200 - - - -
+2021-10-31 06:09:52,303 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:52] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 200 - - - -
+2021-10-31 06:09:52,304 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:52] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.008 0.024
+2021-10-31 06:09:56,095 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:09:56] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 10 0.014 0.011
+2021-10-31 06:10:30,959 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:10:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.013
+2021-10-31 06:10:33,860 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:10:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:11:21,304 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:11:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.027
+2021-10-31 06:11:24,851 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:11:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2021-10-31 06:12:11,669 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:12:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.038
+2021-10-31 06:12:15,857 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:12:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2021-10-31 06:13:02,002 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:13:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.024
+2021-10-31 06:13:06,859 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:13:06] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2021-10-31 06:13:52,341 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:13:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.023
+2021-10-31 06:13:57,866 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:13:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.014
+2021-10-31 06:14:42,677 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:14:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.017
+2021-10-31 06:14:48,847 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:14:48] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2021-10-31 06:15:33,047 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:15:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.029
+2021-10-31 06:15:39,847 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:15:39] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.009
+2021-10-31 06:16:23,392 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:16:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.029
+2021-10-31 06:16:30,871 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:16:30] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.015
+2021-10-31 06:17:13,746 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:17:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2021-10-31 06:17:21,852 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:17:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2021-10-31 06:18:04,093 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:18:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.034
+2021-10-31 06:18:12,861 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:18:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.020
+2021-10-31 06:18:54,433 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:18:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.021
+2021-10-31 06:19:03,849 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:19:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2021-10-31 06:19:44,781 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:19:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.029
+2021-10-31 06:19:54,858 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:19:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:20:35,118 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:20:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.023
+2021-10-31 06:20:45,859 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:20:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.009
+2021-10-31 06:21:25,464 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:21:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.025
+2021-10-31 06:21:36,854 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:21:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2021-10-31 06:22:15,813 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:22:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.033
+2021-10-31 06:22:27,847 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:22:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:23:06,142 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:23:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.014
+2021-10-31 06:23:18,844 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:23:18] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2021-10-31 06:23:56,480 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:23:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.024
+2021-10-31 06:24:00,318 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.011 0.042
+2021-10-31 06:24:00,642 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:00] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.001 0.005
+2021-10-31 06:24:01,005 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:01] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.003 0.010
+2021-10-31 06:24:09,180 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.010
+2021-10-31 06:24:46,803 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.010
+2021-10-31 06:24:56,198 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:56] "POST /web/dataset/call_kw/res.users/action_get HTTP/1.1" 200 - 74 0.049 0.054
+2021-10-31 06:24:56,598 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:56] "POST /web/dataset/call_kw/res.users/load_views HTTP/1.1" 200 - 34 0.028 0.043
+2021-10-31 06:24:56,954 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:56] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 21 0.014 0.028
+2021-10-31 06:24:57,340 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:57] "GET /web/image?model=res.users&id=2&field=avatar_128&unique=31102021010327 HTTP/1.1" 200 - 6 0.007 0.013
+2021-10-31 06:24:57,364 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:57] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 22 0.012 0.064
+2021-10-31 06:24:59,506 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:24:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2021-10-31 06:25:37,135 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.022
+2021-10-31 06:25:45,387 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:45] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 31 0.049 0.028
+2021-10-31 06:25:45,620 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:45] "GET /mail/static/src/img/odoobot.png HTTP/1.1" 200 - - - -
+2021-10-31 06:25:45,627 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:45] "GET /sms/static/img/sms_failure.svg HTTP/1.1" 200 - - - -
+2021-10-31 06:25:45,635 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:45] "GET /mail/static/src/img/smiley/mailfailure.jpg HTTP/1.1" 200 - - - -
+2021-10-31 06:25:46,778 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:46] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.002 0.006
+2021-10-31 06:25:47,930 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:47] "POST /web/dataset/call_kw/mail.channel/channel_fetch_preview HTTP/1.1" 200 - 29 0.038 0.022
+2021-10-31 06:25:49,834 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:49] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2021-10-31 06:25:51,197 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:51] "POST /web/action/load HTTP/1.1" 200 - 48 0.042 0.042
+2021-10-31 06:25:51,627 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:51] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 42 0.025 0.083
+2021-10-31 06:25:52,222 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:52] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 281 0.150 0.086
+2021-10-31 06:25:52,632 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:52] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.005 0.005
+2021-10-31 06:25:52,633 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:52] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - - - -
+2021-10-31 06:25:52,635 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:52] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - - - -
+2021-10-31 06:25:52,640 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:52] "POST /base_setup/data HTTP/1.1" 200 - 6 0.008 0.011
+2021-10-31 06:25:53,006 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:25:53] "GET /base/static/description/settings.png HTTP/1.1" 200 - - - -
+2021-10-31 06:26:03,738 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:03] "GET /web?debug=1 HTTP/1.1" 200 - 339 0.230 0.673
+2021-10-31 06:26:04,086 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "GET /web/webclient/load_menus/511ee177dce43ae978341da63c08bd34f99176c084b51c5c3c64369b3818a811 HTTP/1.1" 200 - 1 0.000 0.008
+2021-10-31 06:26:04,449 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "POST /mail/init_messaging HTTP/1.1" 200 - 45 0.069 0.041
+2021-10-31 06:26:04,658 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.012 0.007
+2021-10-31 06:26:04,759 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.020
+2021-10-31 06:26:04,766 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.015
+2021-10-31 06:26:04,783 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 6 0.006 0.021
+2021-10-31 06:26:04,820 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:04] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.005 0.006
+2021-10-31 06:26:07,754 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:07] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.000 0.004
+2021-10-31 06:26:08,064 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:08] "POST /web/dataset/call_kw/ir.rule/check_access_rights HTTP/1.1" 200 - 1 0.000 0.007
+2021-10-31 06:26:08,066 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:08] "POST /web/dataset/call_kw/ir.model.access/check_access_rights HTTP/1.1" 200 - 1 0.000 0.007
+2021-10-31 06:26:14,048 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:14] "POST /web/action/load HTTP/1.1" 200 - 17 0.010 0.020
+2021-10-31 06:26:14,485 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:14] "POST /web/dataset/call_kw/sale.order/load_views HTTP/1.1" 200 - 71 0.039 0.088
+2021-10-31 06:26:14,878 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.038 0.026
+2021-10-31 06:26:15,209 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:15] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.003 0.006
+2021-10-31 06:26:15,529 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:15] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2021-10-31 06:26:15,895 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:15] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.003 0.010
+2021-10-31 06:26:15,950 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:15] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 6 0.004 0.019
+2021-10-31 06:26:20,611 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:20] "POST /web/dataset/call_kw/ir.model/search HTTP/1.1" 200 - 4 0.002 0.006
+2021-10-31 06:26:20,991 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:20] "POST /web/dataset/call_kw/ir.model.fields/load_views HTTP/1.1" 200 - 45 0.024 0.041
+2021-10-31 06:26:21,321 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:21] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.003 0.016
+2021-10-31 06:26:27,506 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.055
+2021-10-31 06:26:48,484 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.032 0.029
+2021-10-31 06:26:48,801 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:48] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.003 0.004
+2021-10-31 06:26:49,148 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:49] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.002 0.011
+2021-10-31 06:26:54,072 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:54] "POST /web/dataset/call_kw/ir.model/search HTTP/1.1" 200 - 2 0.001 0.005
+2021-10-31 06:26:54,405 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:54] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.010
+2021-10-31 06:26:54,787 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.020 50.035
+2021-10-31 06:26:55,087 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:26:55] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2021-10-31 06:27:05,100 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.013 0.024
+2021-10-31 06:27:05,427 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:05] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.002 0.005
+2021-10-31 06:27:05,785 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:05] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.002 0.011
+2021-10-31 06:27:45,135 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.022
+2021-10-31 06:27:45,407 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2021-10-31 06:27:48,644 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:48] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 20 0.018 0.014
+2021-10-31 06:27:48,977 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:48] "POST /web/dataset/call_kw/res.groups/load_views HTTP/1.1" 200 - 6 0.004 0.007
+2021-10-31 06:27:49,308 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:49] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 13 0.005 0.008
+2021-10-31 06:27:49,754 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:49] "GET /web/static/lib/ace/ace.js HTTP/1.1" 200 - - - -
+2021-10-31 06:27:50,106 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:50] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 200 - - - -
+2021-10-31 06:27:50,108 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:50] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 200 - - - -
+2021-10-31 06:27:50,110 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:27:50] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 200 - - - -
+2021-10-31 06:28:35,479 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:28:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.035
+2021-10-31 06:28:36,067 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:28:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2021-10-31 06:29:25,828 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.031
+2021-10-31 06:29:27,161 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.010
+2021-10-31 06:29:58,875 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:58] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 6 0.008 0.013
+2021-10-31 06:29:58,886 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:58] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 6 0.007 0.021
+2021-10-31 06:29:58,886 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:58] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 6 0.011 0.019
+2021-10-31 06:29:59,245 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:59] "POST /web/dataset/call_kw/sale.order/onchange HTTP/1.1" 200 - 12 0.007 0.026
+2021-10-31 06:29:59,673 8524 INFO localhost odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_PE', 'tz': 'America/Lima', 'uid': 2}}> 
+2021-10-31 06:29:59,696 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:29:59] "POST /web_editor/public_render_template HTTP/1.1" 200 - 13 0.009 0.019
+2021-10-31 06:30:00,077 8524 INFO ? werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:00] "GET /web_editor/static/src/xml/editor.xml?debug=1635661799764 HTTP/1.1" 200 - - - -
+2021-10-31 06:30:00,482 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:00] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 7 0.005 0.016
+2021-10-31 06:30:03,474 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:03] "POST /web/dataset/call_kw/res.partner/name_search HTTP/1.1" 200 - 5 0.008 0.011
+2021-10-31 06:30:05,602 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:05] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 4 0.007 0.005
+2021-10-31 06:30:05,996 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:05] "POST /web/dataset/call_kw/sale.order/onchange HTTP/1.1" 200 - 47 0.036 0.044
+2021-10-31 06:30:07,972 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:07] "POST /web/dataset/call_kw/sale.order.template/name_search HTTP/1.1" 200 - 9 0.005 0.008
+2021-10-31 06:30:09,243 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:09] "POST /web/dataset/call_kw/sale.order/onchange HTTP/1.1" 200 - 65 0.057 0.062
+2021-10-31 06:30:15,864 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.029
+2021-10-31 06:30:17,196 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2021-10-31 06:30:19,197 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/sale.order/create HTTP/1.1" 200 - 60 0.086 0.053
+2021-10-31 06:30:19,583 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 44 0.047 0.025
+2021-10-31 06:30:19,935 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.006 0.020
+2021-10-31 06:30:19,937 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.010 0.017
+2021-10-31 06:30:19,938 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/sale.order.option/read HTTP/1.1" 200 - 11 0.018 0.015
+2021-10-31 06:30:19,977 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:19] "POST /web/dataset/call_kw/sale.order.line/read HTTP/1.1" 200 - 18 0.046 0.025
+2021-10-31 06:30:20,310 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.005 0.016
+2021-10-31 06:30:20,310 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 4 0.012 0.011
+2021-10-31 06:30:20,312 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.003 0.019
+2021-10-31 06:30:20,739 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 12 0.025 0.019
+2021-10-31 06:30:20,752 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 4 0.014 0.023
+2021-10-31 06:30:20,764 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /mail/thread/messages HTTP/1.1" 200 - 18 0.050 0.022
+2021-10-31 06:30:20,764 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 12 0.039 0.027
+2021-10-31 06:30:20,769 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:20] "POST /mail/read_followers HTTP/1.1" 200 - 16 0.052 0.021
+2021-10-31 06:30:21,060 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.003 0.006
+2021-10-31 06:30:21,098 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.003 0.020
+2021-10-31 06:30:21,099 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.017 0.019
+2021-10-31 06:30:21,110 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.018 0.022
+2021-10-31 06:30:21,111 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.005 0.022
+2021-10-31 06:30:21,393 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.005 0.010
+2021-10-31 06:30:21,419 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.003 0.006
+2021-10-31 06:30:21,430 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.011 0.011
+2021-10-31 06:30:21,434 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.001 0.008
+2021-10-31 06:30:21,441 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.004 0.009
+2021-10-31 06:30:21,704 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.003
+2021-10-31 06:30:21,737 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:21] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.001 0.003
+2021-10-31 06:30:26,451 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.014 0.026
+2021-10-31 06:30:26,776 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:26] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.002 0.005
+2021-10-31 06:30:27,115 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:27] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.003 0.007
+2021-10-31 06:30:36,864 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:36] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 33 0.039 0.033
+2021-10-31 06:30:37,200 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.003 0.016
+2021-10-31 06:30:37,207 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.008 0.017
+2021-10-31 06:30:37,216 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/sale.order.line/read HTTP/1.1" 200 - 13 0.020 0.018
+2021-10-31 06:30:37,237 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/sale.order.option/read HTTP/1.1" 200 - 11 0.041 0.017
+2021-10-31 06:30:37,565 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 4 0.009 0.009
+2021-10-31 06:30:37,566 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.002 0.014
+2021-10-31 06:30:37,566 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.002 0.016
+2021-10-31 06:30:37,982 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.005 0.026
+2021-10-31 06:30:37,988 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.006 0.025
+2021-10-31 06:30:37,989 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.023
+2021-10-31 06:30:37,995 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.016 0.024
+2021-10-31 06:30:37,995 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:37] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.023 0.019
+2021-10-31 06:30:38,304 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.005 0.007
+2021-10-31 06:30:38,327 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.016
+2021-10-31 06:30:38,331 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.001 0.021
+2021-10-31 06:30:38,332 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.010 0.014
+2021-10-31 06:30:38,339 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.012 0.020
+2021-10-31 06:30:38,619 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:38] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.001 0.002
+2021-10-31 06:30:45,197 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.002 0.019
+2021-10-31 06:30:45,211 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.022
+2021-10-31 06:30:45,212 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.004 0.022
+2021-10-31 06:30:45,212 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.012 0.022
+2021-10-31 06:30:45,213 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.020 0.018
+2021-10-31 06:30:45,509 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:45] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.003
+2021-10-31 06:30:53,482 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:53] "POST /web/dataset/call_kw/sale.order.line/onchange HTTP/1.1" 200 - 7 0.005 0.012
+2021-10-31 06:30:53,843 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:53] "POST /web/dataset/call_kw/sale.order/onchange HTTP/1.1" 200 - 30 0.019 0.033
+2021-10-31 06:30:58,941 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:58] "POST /web/dataset/call_kw/sale.order/write HTTP/1.1" 200 - 24 0.033 0.040
+2021-10-31 06:30:59,300 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:59] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 33 0.017 0.025
+2021-10-31 06:30:59,642 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:59] "POST /web/dataset/call_kw/mail.followers/read HTTP/1.1" 200 - 3 0.004 0.016
+2021-10-31 06:30:59,649 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:59] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.010 0.015
+2021-10-31 06:30:59,667 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:59] "POST /web/dataset/call_kw/sale.order.line/read HTTP/1.1" 200 - 13 0.027 0.022
+2021-10-31 06:30:59,673 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:30:59] "POST /web/dataset/call_kw/sale.order.option/read HTTP/1.1" 200 - 11 0.034 0.019
+2021-10-31 06:31:00,015 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.006 0.018
+2021-10-31 06:31:00,016 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 2 0.008 0.015
+2021-10-31 06:31:00,017 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 4 0.014 0.012
+2021-10-31 06:31:00,455 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 3 0.006 0.021
+2021-10-31 06:31:00,458 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /mail/read_followers HTTP/1.1" 200 - 9 0.013 0.016
+2021-10-31 06:31:00,461 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/ir.attachment/search_read HTTP/1.1" 200 - 2 0.002 0.022
+2021-10-31 06:31:00,462 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 7 0.006 0.025
+2021-10-31 06:31:00,486 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /mail/thread/messages HTTP/1.1" 200 - 21 0.012 0.041
+2021-10-31 06:31:00,777 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:00] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.008
+2021-10-31 06:31:03,290 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.010 0.023
+2021-10-31 06:31:03,604 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:03] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.001 0.006
+2021-10-31 06:31:03,954 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:03] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 5 0.004 0.010
+2021-10-31 06:31:06,221 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2021-10-31 06:31:07,209 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:07] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2021-10-31 06:31:56,577 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.026
+2021-10-31 06:31:57,869 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:31:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.018
+2021-10-31 06:32:46,926 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:32:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.027
+2021-10-31 06:32:47,899 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:32:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2021-10-31 06:33:37,269 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:33:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.018
+2021-10-31 06:33:38,845 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:33:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:34:27,620 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:34:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.033
+2021-10-31 06:34:29,855 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:34:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2021-10-31 06:35:17,966 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:35:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.027
+2021-10-31 06:35:20,856 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:35:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2021-10-31 06:36:08,320 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:36:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.031
+2021-10-31 06:36:11,855 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:36:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:36:58,663 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:36:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.032
+2021-10-31 06:37:02,854 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:37:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2021-10-31 06:37:48,993 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:37:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.019
+2021-10-31 06:37:53,850 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:37:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2021-10-31 06:38:39,345 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:38:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.037
+2021-10-31 06:38:44,861 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:38:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2021-10-31 06:39:29,707 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:39:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.027
+2021-10-31 06:39:35,859 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:39:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2021-10-31 06:40:20,056 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:40:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.033
+2021-10-31 06:40:26,851 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:40:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2021-10-31 06:41:10,401 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:41:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2021-10-31 06:41:17,850 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:41:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.012
+2021-10-31 06:42:00,767 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:42:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.053
+2021-10-31 06:42:08,860 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:42:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.012
+2021-10-31 06:42:51,130 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:42:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.031
+2021-10-31 06:42:59,843 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:42:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.004
+2021-10-31 06:43:41,488 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:43:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.041
+2021-10-31 06:43:50,857 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:43:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.010
+2021-10-31 06:44:31,829 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:44:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.024
+2021-10-31 06:44:41,866 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:44:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.012
+2021-10-31 06:45:22,172 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:45:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.021
+2021-10-31 06:45:32,846 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:45:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2021-10-31 06:46:12,510 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:46:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2021-10-31 06:46:23,851 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:46:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2021-10-31 06:47:02,862 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:47:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.033
+2021-10-31 06:47:14,858 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:47:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:47:53,208 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:47:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.028
+2021-10-31 06:48:05,854 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:48:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.007
+2021-10-31 06:48:43,554 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:48:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.016
+2021-10-31 06:48:56,860 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:48:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.006
+2021-10-31 06:49:33,908 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:49:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.032
+2021-10-31 06:49:47,858 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:49:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.010
+2021-10-31 06:50:24,261 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:50:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.031
+2021-10-31 06:50:38,844 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:50:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.008
+2021-10-31 06:51:14,625 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:51:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.034
+2021-10-31 06:51:29,853 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:51:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2021-10-31 06:52:04,964 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:52:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.026
+2021-10-31 06:52:20,856 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:52:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:52:55,305 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:52:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.022
+2021-10-31 06:53:11,849 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:53:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2021-10-31 06:53:45,641 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:53:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2021-10-31 06:54:02,853 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:54:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2021-10-31 06:54:35,973 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:54:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.013
+2021-10-31 06:54:53,857 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:54:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2021-10-31 06:55:26,298 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:55:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.012
+2021-10-31 06:55:44,854 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:55:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.011
+2021-10-31 06:56:16,647 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:56:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.030
+2021-10-31 06:56:35,855 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:56:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.013
+2021-10-31 06:57:06,985 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:57:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.024
+2021-10-31 06:57:26,857 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:57:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.010
+2021-10-31 06:57:57,323 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:57:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.022
+2021-10-31 06:58:17,846 8524 INFO localhost werkzeug: 127.0.0.1 - - [31/Oct/2021 06:58:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
